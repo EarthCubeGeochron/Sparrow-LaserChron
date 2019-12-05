@@ -12,10 +12,10 @@ pipeline=$PROJECT_DIR/Sparrow/import-pipelines/LaserChron
 export SPARROW_INIT_SQL="$pipeline/sql"
 export SPARROW_COMMANDS="$pipeline/bin"
 export SPARROW_SITE_CONTENT="$pipeline/site-content"
-export SPARROW_HTTP_PORT=80
+export SPARROW_HTTP_PORT=5002
 
-# Needed for import script
-export SPARROW_DATA_DIR="/Data"
+export SPARROW_S3_ENDPOINT="https://sfo2.digitaloceanspaces.com"
+export SPARROW_S3_BUCKET="laserchron-data"
 
 override="$PROJECT_DIR/sparrow-config.overrides.sh"
 [ -f "$override" ] && source "$override"
