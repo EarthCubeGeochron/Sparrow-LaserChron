@@ -1,1 +1,1 @@
-from .cloud_data import LaserChronDataPlugin
+from .data_import import LaserChronDataPlugin

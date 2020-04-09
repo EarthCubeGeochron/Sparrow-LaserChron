@@ -1,13 +1,12 @@
-import gzip
 from io import StringIO
 from os import stat
 from pandas import read_excel
 from xlrd import open_workbook, XLRDError
-from click import command, echo, secho, style
+from click import secho
 from sparrow.import_helpers import SparrowImportError, md5hash
-from sparrow import Database
-from sqlalchemy.dialects.postgresql import insert, BYTEA
+from sqlalchemy.dialects.postgresql import insert
 from datetime import datetime
+
 
 def extract_datatable(infile):
     try:
@@ -23,6 +22,7 @@ def extract_datatable(infile):
     b.seek(0)
     # Convert to a binary representation
     return b.read().encode()
+
 
 def import_datafile(db, infile):
     """
@@ -60,9 +60,9 @@ def import_datafile(db, infile):
 
     tbl = data_file.__table__
     sql = (insert(tbl)
-        .values(file_path=str(infile), **cols)
-        .on_conflict_do_update(
-            index_elements=[tbl.c.file_path],
-            set_=dict(**cols)))
+           .values(file_path=str(infile), **cols)
+           .on_conflict_do_update(
+                index_elements=[tbl.c.file_path],
+                set_=dict(**cols)))
     db.session.execute(sql)
     return True

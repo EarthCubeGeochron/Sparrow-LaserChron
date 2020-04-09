@@ -1,5 +1,5 @@
 from itertools import chain
-from sparrow.import_helpers import BaseImporter, SparrowImportError
+from sparrow.import_helpers import CloudImporter, SparrowImportError
 from datetime import datetime
 from io import StringIO
 from pandas import read_csv, concat
@@ -27,7 +27,8 @@ def infer_project_name(fp):
 
 class LaserchronImporter(BaseImporter):
     """
-    A basic Sparrow importer for cleaned ETAgeCalc and NUPM AgeCalc files.
+    A Sparrow importer for cleaned ETAgeCalc and NUPM AgeCalc files stored
+    in the cloud.
     """
     authority = "ALC"
 

@@ -10,7 +10,6 @@ import_pipeline="${0:h:h:r}"
 sparrow compose run \
   -e "SPARROW_DATA_DIR=/Data" \
   -e "PYTHONPATH=/import-laserchron" \
-  -v "$SPARROW_DATA_DIR:/Data:ro" \
   -v "$import_pipeline:/import-laserchron" \
   backend \
   python3 -m sparrow_import_laserchron $@
