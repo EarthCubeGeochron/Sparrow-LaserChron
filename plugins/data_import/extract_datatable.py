@@ -88,11 +88,14 @@ def import_datafile(db, infile):
     insert_on_conflict_update(db, data_file, **cols)
     return True
 
+
 def extract_s3_object(db, meta, content):
     # For some reason the ETag comes wrapped in quotes
     etag = meta['ETag'].replace('"', "")
     # S3 works in terms of 'keys' instead of filenames
     key = meta["Key"]
+
+    secho(str(key), dim=True)
 
     fobj = BytesIO(content.read())
     fobj.stem = Path(key).stem
@@ -106,6 +109,7 @@ def extract_s3_object(db, meta, content):
     rec = db.get(data_file, file_hash)
     # We are done if we've already imported
     if rec is not None:
+        secho("Already extracted", fg='green', dim=True)
         return False
 
     # Values to insert
@@ -119,10 +123,9 @@ def extract_s3_object(db, meta, content):
 
     try:
         cols['csv_data'] = extract_datatable(fobj)
-    except NotImplementedError as e:
+    except (SparrowImportError, NotImplementedError, IndexError, UnicodeDecodeError) as e:
         secho(str(e), fg='red', dim=True)
 
     insert_on_conflict_update(db, data_file, **cols)
-    db.session.commit()
 
     return True

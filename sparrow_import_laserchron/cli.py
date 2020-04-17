@@ -27,7 +27,7 @@ def extract_data(db, stop_on_error=False):
 
 @command()
 @option('--stop-on-error', is_flag=True, default=False)
-@option('--verbose','-v', is_flag=True, default=False)
+@option('--verbose', '-v', is_flag=True, default=False)
 @option('--extract/--no-extract', default=False)
 @option('--normalize/--no-normalize', default=True)
 @option('--redo', default=False, is_flag=True)
