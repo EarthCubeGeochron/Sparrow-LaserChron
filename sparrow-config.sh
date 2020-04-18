@@ -9,7 +9,6 @@ export COMPOSE_PROJECT_NAME="laserchron"
 # Need to figure out a better way to do this, but it'll be finicky
 # because of docker container nonsense
 export SPARROW_INIT_SQL="$PROJECT_DIR/sql"
-export SPARROW_COMMANDS="$PROJECT_DIR/bin"
 export SPARROW_SITE_CONTENT="$PROJECT_DIR/site-content"
 export SPARROW_HTTP_PORT=5002
 

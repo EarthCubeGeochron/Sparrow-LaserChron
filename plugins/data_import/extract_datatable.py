@@ -110,7 +110,7 @@ def extract_s3_object(db, meta, content):
     # We are done if we've already imported
     if rec is not None:
         secho("Already extracted", fg='green', dim=True)
-        return False
+        return rec, False
 
     # Values to insert
     cols = dict(
@@ -127,5 +127,6 @@ def extract_s3_object(db, meta, content):
         secho(str(e), fg='red', dim=True)
 
     insert_on_conflict_update(db, data_file, **cols)
-
-    return True
+    # Make sure we have updated values
+    db.session.flush()
+    return rec, True

@@ -1,14 +1,13 @@
-from itertools import chain
-from sparrow.import_helpers import CloudImporter, SparrowImportError
+from sparrow.import_helpers import SparrowImportError, BaseImporter
 from datetime import datetime
 from io import StringIO
-from pandas import read_csv, concat
+from pandas import read_csv
 from math import isnan
 import numpy as N
-from click import secho
-from sqlalchemy.exc import IntegrityError, DataError
+from sqlalchemy.exc import IntegrityError
 
 from .normalize_data import normalize_data, generalize_samples
+
 
 def extract_table(csv_data):
     tbl = csv_data
@@ -21,9 +20,11 @@ def extract_table(csv_data):
     df = df.iloc[:,1:]
     return normalize_data(df)
 
+
 def infer_project_name(fp):
     folders = fp.split("/")[:-1]
     return max(folders, key=len)
+
 
 class LaserchronImporter(BaseImporter):
     """
@@ -113,7 +114,13 @@ class LaserchronImporter(BaseImporter):
             analysis_name=str(row['analysis']))
 
         for i in row.iteritems():
-            d = self.import_datum(analysis, *i, row)
+            try:
+                d = self.import_datum(analysis, *i, row)
+            except (ValueError, AttributeError) as err:
+                # Correct thing to do: raise SparrowImportError.
+                # This tells the application that you explicitly handled this error,
+                # and to report it without stopping.
+                raise SparrowImportError(err)
             if d is None: continue
             yield d
 
@@ -130,7 +137,10 @@ class LaserchronImporter(BaseImporter):
             # must be one of the other ages
             return None
 
-        value = float(value)
+        try:
+            value = float(value)
+        except ValueError:
+            return None
         if isnan(value):
             return None
 
