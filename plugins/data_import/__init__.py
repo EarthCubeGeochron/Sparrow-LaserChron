@@ -18,7 +18,8 @@ class LaserChronDataPlugin(CloudDataPlugin):
         inst = self._instance_for_meta(meta)
         if inst is None or self.redo:
             try:
-                inst, extracted = extract_s3_object(db, meta, body)
+                body = self.get_body(meta['Key'])
+                inst, extracted = extract_s3_object(db, meta, body, redo=self.redo)
                 db.session.commit()
             except (SparrowImportError, NotImplementedError) as e:
                 if self.stop_on_error:
@@ -45,7 +46,7 @@ class LaserChronDataPlugin(CloudDataPlugin):
             self.stop_on_error = stop_on_error
             self.redo = redo
 
-            importer = LaserchronImporter(db)
+            importer = LaserchronImporter(db, verbose=verbose)
             if normalize and not basename:
                 if download:
                     iterator = self.process_objects(only_untracked=False)

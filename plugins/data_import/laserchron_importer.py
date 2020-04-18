@@ -5,6 +5,7 @@ from pandas import read_csv
 from math import isnan
 import numpy as N
 from sqlalchemy.exc import IntegrityError
+from click import echo
 
 from .normalize_data import normalize_data, generalize_samples
 
@@ -60,12 +61,18 @@ class LaserchronImporter(BaseImporter):
 
         ids = list(data.index.unique(level=0))
 
+        if self.verbose:
+            echo("Samples: "+", ".join(ids))
+
         for sample_id in ids:
             df = data.xs(sample_id, level='sample_id', drop_level=False)
             try:
                 yield self.import_session(rec, df)
             except IntegrityError as err:
                 raise SparrowImportError(str(err.orig))
+            # Handle common error types
+            except (IndexError, ValueError, AssertionError) as err:
+                raise SparrowImportError(err)
 
     def import_session(self, rec, df):
 

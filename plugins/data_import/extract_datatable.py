@@ -19,6 +19,7 @@ def extract_datatable(infile):
         else:
             # We have a filename string
             wb = open_workbook(infile, on_demand=True)
+        import IPython; IPython.embed(); raise
         df = read_excel(wb, sheet_name="datatable", header=None)
     except XLRDError:
         if "AGE PICK" in infile.stem:
@@ -89,7 +90,7 @@ def import_datafile(db, infile):
     return True
 
 
-def extract_s3_object(db, meta, content):
+def extract_s3_object(db, meta, content, redo=False):
     # For some reason the ETag comes wrapped in quotes
     etag = meta['ETag'].replace('"', "")
     # S3 works in terms of 'keys' instead of filenames
@@ -108,7 +109,7 @@ def extract_s3_object(db, meta, content):
     # Should maybe make sure error is not set
     rec = db.get(data_file, file_hash)
     # We are done if we've already imported
-    if rec is not None:
+    if rec is not None and not redo:
         secho("Already extracted", fg='green', dim=True)
         return rec, False
 
