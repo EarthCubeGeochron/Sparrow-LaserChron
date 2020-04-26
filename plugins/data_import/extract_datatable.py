@@ -14,12 +14,11 @@ def extract_datatable(infile):
     try:
         if isinstance(infile, IOBase):
             # We have an in-memory file
-            fc = infile.read() #.decode("utf-8", "replace")
+            fc = infile.read()
             wb = open_workbook(file_contents=fc, on_demand=True)
         else:
             # We have a filename string
             wb = open_workbook(infile, on_demand=True)
-        import IPython; IPython.embed(); raise
         df = read_excel(wb, sheet_name="datatable", header=None)
     except XLRDError:
         if "AGE PICK" in infile.stem:

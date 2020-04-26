@@ -52,7 +52,7 @@ class LaserChronDataPlugin(CloudDataPlugin):
                     iterator = self.process_objects(only_untracked=False)
                 else:
                     # Just use files that are already tracked in the data files object
-                    iterator = db.session.query(self.db.model.data_file)
+                    iterator = db.session.query(db.model.data_file)
                 importer.iter_records(iterator, redo=redo)
             elif basename:
                 importer.import_one(basename)

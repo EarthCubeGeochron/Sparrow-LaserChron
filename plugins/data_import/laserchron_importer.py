@@ -5,9 +5,24 @@ from pandas import read_csv
 from math import isnan
 import numpy as N
 from sqlalchemy.exc import IntegrityError
-from click import echo
+from click import echo, style
+from datefinder import find_dates
 
 from .normalize_data import normalize_data, generalize_samples
+
+
+def extract_datetime(possible_date_string):
+    dates = find_dates(possible_date_string, source=True, base_date=datetime.min)
+    for (date, source_text) in list(dates)[::-1]:
+        if len(source_text) < 5:
+            # No incomplete Dates
+            continue
+        echo("Extracted date "
+             + style(str(date), fg='green')
+             + " from " + style(source_text, fg='green'))
+
+        return date
+    return None
 
 
 def extract_table(csv_data):
@@ -33,6 +48,7 @@ class LaserchronImporter(BaseImporter):
     in the cloud.
     """
     authority = "ALC"
+    trust_file_times = False
 
     def import_all(self, redo=False):
         self.redo = redo
@@ -80,7 +96,13 @@ class LaserchronImporter(BaseImporter):
         project_name = infer_project_name(rec.file_path)
         project = self.project(project_name)
 
-        date = rec.file_mtime or datetime.min()
+        date = extract_datetime(rec.file_path)
+
+        if self.trust_file_times:
+            date = rec.file_mtime
+        if date is None:
+            # Dates are required, but we might change this
+            date = datetime.min
 
         sample_id = df.index.unique(level=0)[0]
         sample = self.sample(name=sample_id)
