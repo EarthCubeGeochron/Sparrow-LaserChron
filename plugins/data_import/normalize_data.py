@@ -27,8 +27,12 @@ def table_metadata(headers):
 
     # Extract units and make sure all are defined
     for i, u in enumerate(units):
-        if str(u) != 'nan': continue
-        next_col_unit = units.iat[i+1]
+        if str(u) != 'nan':
+            continue
+        try:
+            next_col_unit = units.iat[i+1]
+        except IndexError as err:
+            next_col_unit = None
         c = columns.iat[i]
         this_unit = None
         if next_col_unit == 'Ma':

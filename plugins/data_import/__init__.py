@@ -1,10 +1,11 @@
-from click import command, option, argument
+from click import command, option, argument, secho
 from sparrow.plugins import SparrowPlugin
 from sparrow.ext import CloudDataPlugin
 from sparrow.import_helpers import SparrowImportError
+from textwrap import wrap
 
 from .extract_datatable import extract_s3_object
-from .laserchron_importer import LaserchronImporter
+from .laserchron_importer import LaserchronImporter, extract_table
 
 
 class LaserChronDataPlugin(SparrowPlugin):
@@ -71,4 +72,25 @@ class LaserChronDataPlugin(SparrowPlugin):
             else:
                 list(self.process_objects(only_untracked=True, verbose=True))
 
+        @command(name="list-samples")
+        def list_samples():
+            """
+            List sample names extracted from CSV files
+            """
+
+            importer = LaserchronImporter(db)
+            data_file = db.model.data_file
+            iterator = db.session.query(data_file).filter(data_file.csv_data != None)
+            for i, file in enumerate(iterator):
+                print(file.file_path)
+                try:
+                    df, meta = extract_table(file.csv_data)
+                    if i < 10: continue
+                    for line in wrap("  ".join([f"{i:20}" for i in df.index]), 80):
+                        print(line)
+                except SparrowImportError:
+                    secho("Encountered an error!", fg='red')
+                print("")
+
         cli.add_command(cmd)
+        cli.add_command(list_samples)
