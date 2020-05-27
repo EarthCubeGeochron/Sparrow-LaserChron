@@ -10,7 +10,7 @@ from datetime import datetime
 
 from sparrow.import_helpers import SparrowImportError, md5hash
 
-def extract_datatable(infile):
+def encode_datatable(infile):
     try:
         if isinstance(infile, IOBase):
             # We have an in-memory file
@@ -81,7 +81,7 @@ def import_datafile(db, infile):
         csv_data=None)
 
     try:
-        cols['csv_data'] = extract_datatable(infile)
+        cols['csv_data'] = encode_datatable(infile)
     except NotImplementedError as e:
         secho(str(e), fg='red', dim=True)
 
@@ -122,7 +122,7 @@ def extract_s3_object(db, meta, content, redo=False):
         csv_data=None)
 
     try:
-        cols['csv_data'] = extract_datatable(fobj)
+        cols['csv_data'] = encode_datatable(fobj)
     except (SparrowImportError, NotImplementedError, IndexError, UnicodeDecodeError) as e:
         secho(str(e), fg='red', dim=True)
 

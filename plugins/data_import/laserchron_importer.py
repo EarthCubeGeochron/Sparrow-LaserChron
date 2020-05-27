@@ -9,7 +9,8 @@ from click import echo, style
 from datefinder import find_dates
 import re
 
-from .normalize_data import normalize_data, generalize_samples
+from .normalize_data import normalize_data
+from .sample_names import generalize_samples
 
 def __extract_datetime(possible_date_string):
     dates = find_dates(possible_date_string, source=True, base_date=datetime.min)
@@ -34,7 +35,9 @@ def extract_datetime(st):
             return dt
     return None
 
-def extract_table(csv_data):
+def decode_datatable(csv_data):
+    """Extract a CSV data table from its binary representation
+       in the PostgreSQL database."""
     tbl = csv_data
     if tbl is None:
         return
@@ -79,7 +82,7 @@ class LaserchronImporter(BaseImporter):
             raise SparrowImportError("CSV data not extracted")
 
         try:
-            data, meta = extract_table(rec.csv_data)
+            data, meta = decode_datatable(rec.csv_data)
             self.meta = meta
             data.index.name = 'analysis'
         except IndexError as err:
