@@ -7,23 +7,32 @@ import numpy as N
 from sqlalchemy.exc import IntegrityError
 from click import echo, style
 from datefinder import find_dates
+import re
 
 from .normalize_data import normalize_data, generalize_samples
 
-
-def extract_datetime(possible_date_string):
+def __extract_datetime(possible_date_string):
     dates = find_dates(possible_date_string, source=True, base_date=datetime.min)
-    for (date, source_text) in list(dates)[::-1]:
+    for date, source_text in dates:
         if len(source_text) < 5:
-            # No incomplete Dates
             continue
         echo("Extracted date "
              + style(str(date), fg='green')
              + " from " + style(source_text, fg='green'))
-
         return date
+
     return None
 
+range_regex = re.compile(r"(\d+)-(\d+)\s")
+def extract_datetime(st):
+    for pathseg in st.split("/")[::-1]:
+        without_ranges = range_regex.sub(r"\2 ", pathseg)
+        dt = __extract_datetime(without_ranges)
+        if dt is None:
+            dt = __extract_datetime(pathseg)
+        if dt is not None:
+            return dt
+    return None
 
 def extract_table(csv_data):
     tbl = csv_data
@@ -69,9 +78,12 @@ class LaserchronImporter(BaseImporter):
         if not rec.csv_data:
             raise SparrowImportError("CSV data not extracted")
 
-        data, meta = extract_table(rec.csv_data)
-        self.meta = meta
-        data.index.name = 'analysis'
+        try:
+            data, meta = extract_table(rec.csv_data)
+            self.meta = meta
+            data.index.name = 'analysis'
+        except IndexError as err:
+            raise SparrowImportError(err)
 
         data = generalize_samples(data)
 
@@ -87,7 +99,7 @@ class LaserchronImporter(BaseImporter):
             except IntegrityError as err:
                 raise SparrowImportError(str(err.orig))
             # Handle common error types
-            except (IndexError, ValueError, AssertionError) as err:
+            except (IndexError, ValueError, AssertionError, TypeError) as err:
                 raise SparrowImportError(err)
 
     def import_session(self, rec, df):
@@ -147,10 +159,11 @@ class LaserchronImporter(BaseImporter):
                 d = self.import_datum(analysis, *i, row)
             except (ValueError, AttributeError) as err:
                 # Correct thing to do: raise SparrowImportError.
-                # This tells the application that you explicitly handled this error,
-                # and to report it without stopping.
+                # This tells the application that you explicitly handled
+                # this error, and to report it without stopping.
                 raise SparrowImportError(err)
-            if d is None: continue
+            if d is None:
+                continue
             yield d
 
     def import_datum(self, analysis, key, value, row):

@@ -4,11 +4,11 @@ from pandas import read_excel
 from xlrd import open_workbook, XLRDError
 from click import secho
 from uuid import UUID
-from sparrow.import_helpers import SparrowImportError, md5hash
 from sqlalchemy.dialects.postgresql import insert
 from pathlib import Path
 from datetime import datetime
 
+from sparrow.import_helpers import SparrowImportError, md5hash
 
 def extract_datatable(infile):
     try:

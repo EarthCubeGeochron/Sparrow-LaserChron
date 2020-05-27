@@ -1,10 +1,9 @@
 from click import command, option, argument
-from sparrow.import_helpers import SparrowImportError
 
-from sparrow.plugins.cloud_data import CloudDataPlugin
+from sparrow.import_helpers import SparrowImportError
+from sparrow.ext_plugins import CloudDataPlugin
 from .extract_datatable import extract_s3_object
 from .laserchron_importer import LaserchronImporter
-
 
 class LaserChronDataPlugin(CloudDataPlugin):
     name = "laserchron-data"
@@ -19,6 +18,7 @@ class LaserChronDataPlugin(CloudDataPlugin):
         if inst is None or self.redo:
             try:
                 body = self.get_body(meta['Key'])
+                # Extract s3 object to a CSV file
                 inst, extracted = extract_s3_object(db, meta, body, redo=self.redo)
                 db.session.commit()
             except (SparrowImportError, NotImplementedError) as e:
@@ -56,5 +56,7 @@ class LaserChronDataPlugin(CloudDataPlugin):
                 importer.iter_records(iterator, redo=redo)
             elif basename:
                 importer.import_one(basename)
+            else:
+                list(self.process_objects(only_untracked=True))
 
         cli.add_command(cmd)

@@ -127,13 +127,13 @@ def normalize_data(df):
 
 def extract_analysis_suffix(sample_name):
     sep = r"[\.\:_\s-]"
-    pat = sep+r"(\w+)$"
+    pat = sep+r"(Spot )?(\w+)$"
     try:
-        s = re.search(pat, str(sample_name))
+        s = re.search(pat, str(sample_name), flags=re.IGNORECASE)
     except TypeError:
         return None
     if s is not None:
-        return s.group(1)
+        return s.group(2)
 
     pat = sep+r"(\d+)$"
     s = re.search(pat, str(sample_name))
@@ -160,6 +160,8 @@ def generalize_samples(data):
     data['analysis'] = data['analysis'].str.strip()
     data['analysis_suffix'] = data['analysis'].apply(extract_analysis_suffix)
     data['sample_id'] = data.apply(strip_analysis_suffix, axis=1)
+
+    print(data['sample_id'].unique())
 
     for ix, group in data.groupby(["sample_id"]):
         unique_suffix = group['analysis_suffix'].unique()
