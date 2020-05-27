@@ -1,23 +1,30 @@
 from click import command, option, argument
-
+from sparrow.plugins import SparrowPlugin
+from sparrow.ext import CloudDataPlugin
 from sparrow.import_helpers import SparrowImportError
-from sparrow.ext_plugins import CloudDataPlugin
+
 from .extract_datatable import extract_s3_object
 from .laserchron_importer import LaserchronImporter
 
-class LaserChronDataPlugin(CloudDataPlugin):
+
+class LaserChronDataPlugin(SparrowPlugin):
+
     name = "laserchron-data"
+    dependencies = ["cloud-data"]
     stop_on_error = False
     redo = False
+
+    def __init__(self, app):
+        super().__init__(app)
 
     def import_object(self, meta):
         db = self.app.database
         # Don't download body unless we really need to
         body = None
-        inst = self._instance_for_meta(meta)
+        inst = self.cloud._instance_for_meta(meta)
         if inst is None or self.redo:
             try:
-                body = self.get_body(meta['Key'])
+                body = self.cloud.get_body(meta['Key'])
                 # Extract s3 object to a CSV file
                 inst, extracted = extract_s3_object(db, meta, body, redo=self.redo)
                 db.session.commit()
@@ -26,6 +33,11 @@ class LaserChronDataPlugin(CloudDataPlugin):
                     raise e
                 db.session.rollback()
         return inst
+
+    def process_objects(self, only_untracked=True, verbose=False):
+        self.cloud = self.app.plugins.get("cloud-data")
+        for obj in self.cloud.iterate_objects(only_untracked=only_untracked):
+            yield self.import_object(obj)
 
     def on_setup_cli(self, cli):
         db = self.app.database
@@ -57,6 +69,6 @@ class LaserChronDataPlugin(CloudDataPlugin):
             elif basename:
                 importer.import_one(basename)
             else:
-                list(self.process_objects(only_untracked=True))
+                list(self.process_objects(only_untracked=True, verbose=True))
 
         cli.add_command(cmd)
