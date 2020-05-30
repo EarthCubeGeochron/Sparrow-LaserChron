@@ -70,21 +70,22 @@ def generalize_samples(input):
     # Strip the analysis suffix off of the sample ID
     data['sample_id'] = data.apply(strip_analysis_name, axis=1)
 
-
-
-    for ix, group in data.groupby(["sample_id"]):
+    for sample_id, group in data.groupby(["sample_id"]):
         unique_suffix = group['analysis_name'].unique()
         # If we don't have enough unique suffixes, it's probable that we actually
         # grabbed part of the sample ID. In that case, we fall back to the
         # original sample id
-        _ix = data['sample_id'] == ix
+        ix = data['sample_id'] == sample_id
         if len(unique_suffix)/len(group) < 0.4:
-            data.loc[_ix, 'sample_id'] = data.loc[_ix, 'analysis']
-            data.loc[_ix, 'analysis_name'] = None
+            # Not many of our analysis names are unique, so we fall back
+            # to dealing with samples without internal enumeration
+            data.loc[ix, 'sample_id'] = data.loc[ix, 'analysis']
+            data.loc[ix, 'analysis_name'] = None
 
-        if ix.startswith('Spot'):
-            data.loc[_ix, 'sample_id'] = None
-            data.loc[_ix, 'analysis_name'] = data.loc[_ix, 'analysis']
+        if sample_id.startswith('Spot'):
+            # It appears we don't have a sample name, instead
+            data.loc[ix, 'sample_id'] = None
+            data.loc[ix, 'analysis_name'] = data.loc[ix, 'analysis']
 
     n_samples = len(data['sample_id'].unique())
     if n_samples > 0.3*len(data) and n_samples > 20:
@@ -92,10 +93,8 @@ def generalize_samples(input):
         # sample IDs. We are probably doing something wrong.
         raise SparrowImportError("Too many unique samples; skipping import.")
 
+    # Session index is extracted if an integer can be found easily
     cleaned_name = data['analysis_name'].str.replace("Spot", "").str.strip(delimiters)
-
-    # Session index is just inferred by integer order within groups
-    # We don't mess with grain numbers
     data['session_index'] = to_numeric(
         cleaned_name,
         errors='coerce',
@@ -103,7 +102,7 @@ def generalize_samples(input):
 
     print_sample_info(data, verbose=True)
 
-    return data.set_index(["sample_id", "analysis_name"], drop=True)
+    return data.set_index(["sample_id", "analysis_name", "session_index"], drop=True)
 
 def list_sample_names(data_files, verbose=False):
     """List sample names found in a set of CSV data tables, for debugging purposes."""

@@ -124,12 +124,29 @@ class LaserchronImporter(BaseImporter):
         self.db.session.add(project)
         self.db.session.add(sample)
 
-        session = self.db.get_or_create(
-            self.m.session,
-            date=date,
-            project_id=project.id,
-            sample_id=sample.id)
+        # See if a matching session exists, otherwise create.
+        # Not sure if this will work right now
+        session = self.db.session.query(self.m.session).filter(self.m.data_file == rec).first()
+        if session is not None:
+            self.warn(f"Existing session {session.id} found")
+            # Right now we always overwrite Sparrow changes to projects and samples,
+            # but this is obviously not appropriate if corrections have been made
+            # in the metadata management system.
+            # We need to create new sample and project models only if they aren't tied
+            # to an existing session, or ask the user whether they want to override
+            # Sparrow-configured values by those set within the linked data file.
+            session.project_id = project.id
+            session.sample_id = sample.id
+        else:
+            session = self.db.get_or_create(
+                self.m.session,
+                project_id=project.id,
+                sample_id=sample.id)
 
+        # We always override the date with our estimated value
+        session.date = date
+
+        self.db.session.add(session)
         self.db.session.flush()
 
         dup = df['analysis'].duplicated(keep='first')
@@ -148,14 +165,14 @@ class LaserchronImporter(BaseImporter):
         """
         # session index should not be nan
         try:
-            ix = int(row.name[1])
+            ix = int(row.name[2])
         except ValueError:
             ix = None
 
         analysis = self.add_analysis(
             session,
             session_index=ix,
-            analysis_name=str(row['analysis']))
+            analysis_name=str(row.name[1]))
 
         for i in row.iteritems():
             try:
