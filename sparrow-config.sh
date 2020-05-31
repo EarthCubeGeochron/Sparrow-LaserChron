@@ -1,5 +1,6 @@
 unset GREP_OPTIONS
 # Configures environment for LaserChron lab
+
 PROJECT_DIR="${0:A:h}"
 
 export SPARROW_BACKUP_DIR="$PROJECT_DIR/database-backups"
