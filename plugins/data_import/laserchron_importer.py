@@ -1,8 +1,7 @@
 from sparrow.import_helpers import SparrowImportError, BaseImporter
 from datetime import datetime
 from io import StringIO
-from pandas import read_csv
-from math import isnan
+from pandas import read_csv, isnull
 import numpy as N
 from sqlalchemy.exc import IntegrityError
 from click import echo, style
@@ -53,6 +52,18 @@ def infer_project_name(fp):
     folders = fp.split("/")[:-1]
     return max(folders, key=len)
 
+def nan_to_none(val):
+    if isnull(val):
+        return None
+    return val
+
+def _sample_dataframe(df, sample_name):
+    names = df.index.get_level_values('sample_name')
+    ix = names == sample_name
+    if isnull(sample_name):
+        # Special case for null sample name (row only has information about spots)
+        ix = names.isnull()
+    return df.loc[ix]
 
 class LaserchronImporter(BaseImporter):
     """
@@ -90,13 +101,13 @@ class LaserchronImporter(BaseImporter):
 
         data = generalize_samples(data)
 
-        ids = list(data.index.unique(level=0))
+        sample_names = list(data.index.unique(level=0))
 
         if self.verbose:
-            echo("Samples: "+", ".join(ids))
+            echo("Samples: "+", ".join(sample_names))
 
-        for sample_id in ids:
-            df = data.xs(sample_id, level='sample_id', drop_level=False)
+        for sample_name in sample_names:
+            df = _sample_dataframe(data, sample_name)
             try:
                 yield self.import_session(rec, df)
             except IntegrityError as err:
@@ -119,14 +130,21 @@ class LaserchronImporter(BaseImporter):
             # Dates are required, but we might change this
             date = datetime.min
 
-        sample_id = df.index.unique(level=0)[0]
-        sample = self.sample(name=sample_id)
+        sample_name = nan_to_none(df.index.unique(level='sample_name')[0])
+        sample_id = None
+        if sample_name is not None:
+            sample = self.sample(name=sample_name)
+            self.db.session.add(sample)
+            sample_id = sample.id
+
         self.db.session.add(project)
-        self.db.session.add(sample)
 
         # See if a matching session exists, otherwise create.
         # Not sure if this will work right now
-        session = self.db.session.query(self.m.session).filter(self.m.data_file == rec).first()
+        session = (self.db.session.query(self.m.session)
+                    .filter(self.m.data_file == rec)
+                    .first())
+
         if session is not None:
             self.warn(f"Existing session {session.id} found")
             # Right now we always overwrite Sparrow changes to projects and samples,
@@ -136,12 +154,12 @@ class LaserchronImporter(BaseImporter):
             # to an existing session, or ask the user whether they want to override
             # Sparrow-configured values by those set within the linked data file.
             session.project_id = project.id
-            session.sample_id = sample.id
+            session.sample_id = sample_id
         else:
             session = self.db.get_or_create(
                 self.m.session,
                 project_id=project.id,
-                sample_id=sample.id)
+                sample_id=sample_id)
 
         # We always override the date with our estimated value
         session.date = date
@@ -151,7 +169,8 @@ class LaserchronImporter(BaseImporter):
 
         dup = df['analysis'].duplicated(keep='first')
         if dup.astype(bool).sum() > 0:
-            self.warn(f"Duplicate analyses found for sample {sample_id}")
+            print(dup)
+            self.warn(f"Duplicate analyses found for sample {sample_name}")
         df = df[~dup]
 
         for i, row in df.iterrows():
@@ -203,7 +222,7 @@ class LaserchronImporter(BaseImporter):
             value = float(value)
         except ValueError:
             return None
-        if isnan(value):
+        if isnull(value):
             return None
 
         m = self.meta[key]

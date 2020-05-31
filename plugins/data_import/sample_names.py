@@ -49,7 +49,7 @@ def strip_analysis_name(row):
 def print_sample_info(df, verbose=False):
     if verbose:
         echo(style("Samples: ", bold=True), err=True)
-        for id, group in df.groupby(["sample_id"]):
+        for id, group in df.groupby(["sample_name"]):
             n = style(f" ({len(group)})", dim=True)
             echo("- "+style(id, fg='cyan')+n, err=True)
         echo("", err=True)
@@ -68,26 +68,26 @@ def generalize_samples(input):
     data['analysis'] = data['analysis'].str.strip(delimiters)
     data['analysis_name'] = data['analysis'].apply(extract_analysis_name)
     # Strip the analysis suffix off of the sample ID
-    data['sample_id'] = data.apply(strip_analysis_name, axis=1)
+    data['sample_name'] = data.apply(strip_analysis_name, axis=1)
 
-    for sample_id, group in data.groupby(["sample_id"]):
+    for sample_name, group in data.groupby(["sample_name"]):
         unique_suffix = group['analysis_name'].unique()
         # If we don't have enough unique suffixes, it's probable that we actually
         # grabbed part of the sample ID. In that case, we fall back to the
         # original sample id
-        ix = data['sample_id'] == sample_id
+        ix = data['sample_name'] == sample_name
         if len(unique_suffix)/len(group) < 0.4:
             # Not many of our analysis names are unique, so we fall back
             # to dealing with samples without internal enumeration
-            data.loc[ix, 'sample_id'] = data.loc[ix, 'analysis']
+            data.loc[ix, 'sample_name'] = data.loc[ix, 'analysis']
             data.loc[ix, 'analysis_name'] = None
 
-        if sample_id.startswith('Spot'):
+        if sample_name.startswith('Spot'):
             # It appears we don't have a sample name, instead
-            data.loc[ix, 'sample_id'] = None
+            data.loc[ix, 'sample_name'] = None
             data.loc[ix, 'analysis_name'] = data.loc[ix, 'analysis']
 
-    n_samples = len(data['sample_id'].unique())
+    n_samples = len(data['sample_name'].unique())
     if n_samples > 0.3*len(data) and n_samples > 20:
         # We have a lot of "unique" samples even though we tried to extract
         # sample IDs. We are probably doing something wrong.
@@ -102,7 +102,7 @@ def generalize_samples(input):
 
     print_sample_info(data, verbose=True)
 
-    return data.set_index(["sample_id", "analysis_name", "session_index"], drop=True)
+    return data.set_index(["sample_name", "analysis_name", "session_index"], drop=True)
 
 def list_sample_names(data_files, verbose=False):
     """List sample names found in a set of CSV data tables, for debugging purposes."""
