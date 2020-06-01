@@ -15,9 +15,6 @@ class LaserChronDataPlugin(SparrowPlugin):
     stop_on_error = False
     redo = False
 
-    def __init__(self, app):
-        super().__init__(app)
-
     def import_object(self, meta):
         db = self.app.database
         # Don't download body unless we really need to
