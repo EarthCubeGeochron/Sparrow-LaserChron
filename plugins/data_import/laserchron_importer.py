@@ -3,7 +3,7 @@ from datetime import datetime
 from io import StringIO
 from pandas import read_csv, isnull
 import numpy as N
-from sqlalchemy.exc import IntegrityError
+from sqlalchemy.exc import IntegrityError, ProgrammingError, DataError
 from click import echo, style
 from datefinder import find_dates
 import re
@@ -110,7 +110,7 @@ class LaserchronImporter(BaseImporter):
             df = _sample_dataframe(data, sample_name)
             try:
                 yield self.import_session(rec, df)
-            except IntegrityError as err:
+            except (IntegrityError, ProgrammingError, DataError) as err:
                 raise SparrowImportError(str(err.orig))
             # Handle common error types
             except (IndexError, ValueError, AssertionError, TypeError) as err:
