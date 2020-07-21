@@ -10,20 +10,29 @@ from datetime import datetime
 
 from sparrow.import_helpers import SparrowImportError, md5hash
 
-def encode_datatable(infile):
+def get_excel_reader(infile):
     try:
         if isinstance(infile, IOBase):
             # We have an in-memory file
             fc = infile.read()
-            wb = open_workbook(file_contents=fc, on_demand=True)
+            return open_workbook(file_contents=fc, on_demand=True)
         else:
             # We have a filename string
-            wb = open_workbook(infile, on_demand=True)
+            return open_workbook(infile, on_demand=True)
+    except Exception as err:
+        raise SparrowImportError(str(err))
+
+
+def encode_datatable(infile):
+    try:
+        wb = get_excel_reader(infile)
         df = read_excel(wb, sheet_name="datatable", header=None)
     except XLRDError:
         if "AGE PICK" in infile.stem:
             raise NotImplementedError("AGE PICK files are not yet handled")
         raise SparrowImportError("No data table")
+    except AssertionError:
+        raise SparrowImportError("Could not open data table")
 
     b = StringIO()
     df.to_csv(b, compression='gzip')
