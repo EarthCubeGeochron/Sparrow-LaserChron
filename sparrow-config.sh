@@ -10,7 +10,7 @@ PROJECT_DIR="$SPARROW_CONFIG_DIR"
 # version of the sparrow core application
 # (note, we can use SPARROW_PATH instead to tie to a specific
 #  installation if we are using a submodule, for instance.)
-export SPARROW_VERSION="HEAD"
+export SPARROW_VERSION="==2.0.0.*"
 
 export SPARROW_BACKUP_DIR="$PROJECT_DIR/database-backups"
 export SPARROW_LAB_NAME="Arizona LaserChron Center"
