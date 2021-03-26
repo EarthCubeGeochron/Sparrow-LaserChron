@@ -8,6 +8,9 @@ export default {
   landingText: h Markdown, {src: aboutText}
   landingGraphic: h AggregateHistogram
   siteTitle: 'Arizona LaserChron Center'
-  sessionDetail: (props)=>
-    h DetritalZirconComponent, props
+  sessionDetailTabs: [{
+    title: "Detrital zircon"
+    id: "detrital-zircon"
+    component: DetritalZirconComponent
+  }]
 }
