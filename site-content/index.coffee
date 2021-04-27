@@ -9,6 +9,7 @@ export default {
   landingText: h Markdown, {src: aboutText}
   landingGraphic: h AggregateHistogram
   siteTitle: 'Arizona LaserChron Center'
+  shortSiteTitle: "ALC"
   sessionDetailTabs: [{
     title: "Detrital zircon"
     id: "detrital-zircon"
