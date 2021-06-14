@@ -1,6 +1,6 @@
 #!/bin/bash
 
-unset GREP_OPTIONS
+# unset GREP_OPTIONS
 # Configures environment for LaserChron lab
 
 # SPARROW_CONFIG_DIR always points to the sourced configuration

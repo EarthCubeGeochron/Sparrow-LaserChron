@@ -1,2 +1,3 @@
 from sparrow.ext import CloudDataPlugin
 from .data_import import LaserChronDataPlugin
+from .metadata_import import LaserChronMetadataImporter

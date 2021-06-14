@@ -1,0 +1,949 @@
+Sample ID,IGSN       ,Longitude,Latitude,Geologic Entity,Geologic Period,"Rock Type (IG, DZ)",Material,Notes,Future Data?,Analyst Name,Origin,Metadata URL    
+14IY01,,-125.429,50.7144,,,,zircon,,,R Cecil,GeoChron,
+14IY02,,-125.519,50.6641,,,,zircon,,,R Cecil,GeoChron,
+14IY04,,-125.556,50.6196,,,,zircon,,,R Cecil,GeoChron,
+14IY03,,-125.557,50.606,,,,zircon,,,R Cecil,GeoChron,
+14IY11,,-124.906,50.8456,,,,zircon,,,R Cecil,GeoChron,
+14IY13,,-124.948,50.8334,,,,zircon,,,R Cecil,GeoChron,
+14IY14,,-124.896,50.8104,,,,zircon,,,R Cecil,GeoChron,
+14IY18,,-124.904,50.7769,,,,zircon,,,R Cecil,GeoChron,
+14IY23,,-124.892,50.7248,,,,zircon,,,R Cecil,GeoChron,
+14IY24,,-124.912,50.6906,,,,zircon,,,R Cecil,GeoChron,
+14IY25,,-124.924,50.6665,,,,zircon,,,R Cecil,GeoChron,
+14IY31,,-124.931,50.554,,,,zircon,,,R Cecil,GeoChron,
+14IY32,,-124.98,50.4987,,,,zircon,,,R Cecil,GeoChron,
+14IY36,,-124.991,50.5405,,,,zircon,,,R Cecil,GeoChron,
+14IY38,,-125.063,50.5118,,,,zircon,,,R Cecil,GeoChron,
+14IY39,,-125.082,50.5074,,,,zircon,,,R Cecil,GeoChron,
+14IY40,,-124.896,50.5592,,,,zircon,,,R Cecil,GeoChron,
+14IY42,,-125.051,50.4627,,,,zircon,,,R Cecil,GeoChron,
+14IY44,,-125.117,50.4131,,,,zircon,,,R Cecil,GeoChron,
+14MR44,,-125.048,51.2942,,,,zircon,,,R Cecil,GeoChron,
+14MR53,,-125.064,51.2532,,,,zircon,,,R Cecil,GeoChron,
+14MR55,,-125.14,51.1829,,,,zircon,,,R Cecil,GeoChron,
+14MR61,,-125.146,51.2502,,,,zircon,,,R Cecil,GeoChron,
+14MR68,,-125.127,51.0611,,,,zircon,,,R Cecil,GeoChron,
+14MR69,,-124.968,51.0144,,,,zircon,,,R Cecil,GeoChron,
+14MR70,,-124.878,51.001,,,,zircon,,,R Cecil,GeoChron,
+14MR71,,-124.769,51.0567,,,,zircon,,,R Cecil,GeoChron,
+14MR72,,-124.542,51.1055,,,,zircon,,,R Cecil,GeoChron,
+14MR73,,-124.126,51.0904,,,,zircon,,,R Cecil,GeoChron,
+15BCKH13,,-125.517,50.9233,,,,zircon,,,R Cecil,GeoChron,
+15GK37,,-126.213,50.5603,,,,zircon,,,R Cecil,GeoChron,
+15KN03,,-126.647,50.6414,,,,zircon,,,R Cecil,GeoChron,
+15KN06,,-126.506,50.6424,,,,zircon,,,R Cecil,GeoChron,
+15KN13,,-126.38,50.6546,,,,zircon,,,R Cecil,GeoChron,
+15KN30,,-125.906,50.6909,,,,zircon,,,R Cecil,GeoChron,
+15KN38A,,-125.784,50.7052,,,,zircon,,,R Cecil,GeoChron,
+15KN38B,,-125.784,50.7052,,,,zircon,,,R Cecil,GeoChron,
+15KN69B,,-125.638,50.8894,,,,zircon,,,R Cecil,GeoChron,
+15KN90,,-125.686,50.7761,,,,zircon,,,R Cecil,GeoChron,
+15KS01,,-126.679,50.6093,,,,zircon,,,R Cecil,GeoChron,
+15KS58,,-125.53,50.9804,,,,zircon,,,R Cecil,GeoChron,
+15KS64,,-125.539,51.0457,,,,zircon,,,R Cecil,GeoChron,
+15KS78,,-125.63,50.8605,,,,zircon,,,R Cecil,GeoChron,
+15KS79,,-125.606,50.8104,,,,zircon,,,R Cecil,GeoChron,
+15KS80,,-125.869,50.6681,,,,zircon,,,R Cecil,GeoChron,
+15KS81,,-126.022,50.663,,,,zircon,,,R Cecil,GeoChron,
+15KS82,,-126.056,50.6591,,,,zircon,,,R Cecil,GeoChron,
+15KS83,,-126.104,50.6458,,,,zircon,,,R Cecil,GeoChron,
+15MR28,,-124.92,50.8941,,,,zircon,,,R Cecil,GeoChron,
+15MR31,,-124.48,50.9285,,,,zircon,,,R Cecil,GeoChron,
+15MR42,,-124.5,51.2326,,,,zircon,,,R Cecil,GeoChron,
+2727R02,,-125.205,51.6795,,,,zircon,,,R Cecil,GeoChron,
+01MR03,,-126.301,50.5141,,,,zircon,,,R Cecil,GeoChron,
+01MR11P,,-125.987,50.6367,,,,zircon,,,R Cecil,GeoChron,
+01MR31,,-125.655,50.7736,,,,zircon,,,R Cecil,GeoChron,
+01MR66P,,-126.177,50.6683,,,,zircon,,,R Cecil,GeoChron,
+11GC10,,-127.658,51.0885,,,,zircon,,,R Cecil,GeoChron,
+07GC213,,-128.125,51.675,,,,zircon,,,R Cecil,GeoChron,
+07GC221,,-126.425,51.6593,,,,zircon,,,R Cecil,GeoChron,
+07GC222,,-127.889,51.6934,,,,zircon,,,R Cecil,GeoChron,
+11GC11,,-127.571,51.0912,,,,zircon,,,R Cecil,GeoChron,
+11GC12,,-127.278,51.0544,,,,zircon,,,R Cecil,GeoChron,
+11GC13,,-126.937,51.0785,,,,zircon,,,R Cecil,GeoChron,
+11GC14,,-127.102,51.0761,,,,zircon,,,R Cecil,GeoChron,
+11GC17,,-126.67,51.1653,,,,zircon,,,R Cecil,GeoChron,
+11GC19,,-126.744,51.1136,,,,zircon,,,R Cecil,GeoChron,
+11GC20,,-126.785,51.0884,,,,zircon,,,R Cecil,GeoChron,
+DTB17-14   (IGSNID: IEDTB0004),,-114.404,44.4366,,,,Zircon,,,Daniel Brennan,GeoChron,
+4PL14   (IGSNID: IEDTB000H),,-114.249,44.4107,,,,Zircon,,,Paul Link,GeoChron,
+17NK15   (IGSNID: IEDTB000H),,-114.441,44.393,,,,Zircon,,,Paul Link,GeoChron,
+15NK15   (IGSNID: IEDTB000G),,-114.471,44.3273,,,,Zircon,,,Paul Link,GeoChron,
+10NK15   (IGSNID: IEDTB000F),,-114.385,44.2756,,,,Zircon,,,Paul Link,GeoChron,
+5NK15   (IGSNID: IEDTB000E),,-114.481,44.416,,,,Zircon,,,Paul Link,GeoChron,
+5TA09   (IGSNID: IEDTB000C),,-114.438,44.2609,,,,Zircon,,,Paul Link,GeoChron,
+4TA09   (IGSNID: IEDTB000B),,-114.438,44.2609,,,,Zircon,,,Paul Link,GeoChron,
+3TA09   (IGSNID: IEDTB000A),,-114.471,44.3215,,,,Zircon,,,Paul Link,GeoChron,
+2TA09   (IGSNID: IEDTB0009),,-114.384,44.4098,,,,Zircon,,,Paul Link,GeoChron,
+DTB17-19   (IGSNID: IEDTB0007),,-114.327,44.2737,,,,Zircon,,,Daniel Brennan,GeoChron,
+1TA09   (IGSNID: IEDTB0008),,-114.396,44.4099,,,,Zircon,,,Paul Link,GeoChron,
+DTB17-18   (IGSNID: IEDTB0006),,-114.416,44.2633,,,,Zircon,,,Daniel Brennan,GeoChron,
+DTB17-17   (IGSNID: IEDTB0005),,-114.403,44.2596,,,,Zircon,,,Daniel Brennan,GeoChron,
+DTB17-11   (IGSNID: IEDTB0003),,-114.4,44.4405,,,,Zircon,,,Daniel Brennan,GeoChron,
+DTB17-04   (IGSNID: IEDTB0001),,-114.348,44.4842,,,,Zircon,,,Daniel Brennan,GeoChron,
+DTB17-05   (IGSNID: IEDTB0002),,-114.391,44.4519,,,,Zircon,,,Daniel Brennan,GeoChron,
+AE-1,IEUAZ0003,-75.5233,6.22631,,,,Zircon,,,Mauricio Iba√±ez-Mejia,GeoChron,http://www.geochron.org/viewid.php?id=IEUAZ0003
+AMI-2,IEUAZ0004,-75.4984,6.31544,,,,Zircon,,,Mauricio Iba√±ez-Mejia,GeoChron,http://www.geochron.org/viewid.php?id=IEUAZ0004
+LPP-1,IEUAZ0002,-75.5957,6.31006,,,,Zircon,,,Mauricio Iba√±ez-Mejia,GeoChron,http://www.geochron.org/viewid.php?id=IEUAZ0002
+QS-1,IEUAZ0001,-75.5385,6.34836,,,,Zircon,,,Mauricio Iba√±ez-Mejia,GeoChron,http://www.geochron.org/viewid.php?id=IEUAZ0001
+SML-1,IEUAZ0006,-75.5191,6.24264,,,,Zircon,,,Mauricio Iba√±ez-Mejia,GeoChron,http://www.geochron.org/viewid.php?id=IEUAZ0006
+TNL-1,IEUAZ0005,-75.4898,6.32517,,,,Zircon,,,Mauricio Iba√±ez-Mejia,GeoChron,http://www.geochron.org/viewid.php?id=IEUAZ0005
+FC-AC18-1,IEFCF0001,-110.771,31.6877,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0001
+FC-AC18-4,IEFCF0001,-110.766,31.6943,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0001
+FC-BCY18-1,IEFCF0006,-110.463,31.5113,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0006
+FC-BCY18-2,IEFCF0007,-110.473,31.515,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0007
+FC-CC18-1,IEFCF0003,-110.778,31.7182,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0003
+FC-HC18-1,IEFCF0004,-110.763,31.7039,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0004
+FC-HC18-2,IEFCF0005,-110.761,31.7054,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0005
+FC-CC18-3,IEFCF000C,-110.784,31.7172,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF000C
+JG-18,IEFCF0009,-110.881,31.3918,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0009
+PG-18-1,IEFCF0008,-110.829,31.7812,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF0008
+SF-MF-2,IEFCF000B,-110.694,31.897,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF000B
+SF-RJ-1,IEFCF000A,-110.729,31.8374,,,,Zircon,,,Emilia Caylor,GeoChron,http://www.geochron.org/viewid.php?id=IEFCF000A
+HLY1202-DR5-003,ECS000012,-161.346,77.8138,,,,Zircon,,,Tim Obrien,GeoChron,http://www.geochron.org/viewid.php?id=ECS000012
+HLY1202-DR5-004,ECS000012,-161.346,77.8138,,,,Zircon,,,Tim Obrien,GeoChron,http://www.geochron.org/viewid.php?id=ECS000012
+BRJR13-HF3,IETMO0001,-152.384,67.7604,,,,Zircon,,,Tim Obrien,GeoChron,http://www.geochron.org/viewid.php?id=IETMO0001
+101517AL1,,-112.966,46.5205,,,,Zircon,,,Caden Howlett,GeoChron,
+101517AL2,,-112.945,46.5279,,,,Zircon,,,Caden Howlett,GeoChron,
+101517AL3,,-112.925,46.4728,,,,Zircon,,,Caden Howlett,GeoChron,
+101517AL4,,-112.918,46.5241,,,,Zircon,,,Caden Howlett,GeoChron,
+CPCP52-2no29,SSX.IEAZL000P,-110.912,32.2535,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL000P
+CPCP 327-2 no16,SSX.IEAZL000R,-110.912,32.2535,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL000R
+CPCP261-1 no18,SSX.IEAZL000V,0,0,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL000V
+CPCP327-2 no18,SSX.IEAZL000X,0,0,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL000X
+CPCP66-1,SSX.IEAZL0011,0,0,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL0011
+CPCP287-2 no19,SSX.IEAZL001H,-109.795,35.0859,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL001H
+287-2 no19,SSX.IEAZL001J,-110.795,35.0859,,,,other,,,Dan,GeoChron,http://www.geochron.org/viewid.php?id=SSX.IEAZL001J
+09-056,GEG00012S,32.5952,60.0542,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012S
+R03-AP-25,GEG00010L,142.59,64.8722,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010L
+CPCP 52-2,,-109.796,35.0859,,,,Zircon,,,George Gehrels,GeoChron,
+JCF09-237B,,-72.1867,-51.3034,,,,zircon,,,Julie Fosdick,GeoChron,
+RRK_11M,,-112.007,45.0512,,,,Zircon,,,Justin Rosenblume,GeoChron,
+12RHS01,,-68.5225,-30.1568,,,,zircon,,,Julie Fosdick,GeoChron,
+IEMCC000A: 08-209,,-72.7325,82.6821,,,,Zircon,,,Bill McClelland,GeoChron,
+TRD,,-112.569,45.462,,,,Zircon,,,Cole Gardner,GeoChron,
+08 DH 01 A,GEG00010N,134.969,69.7547,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010N
+XOM-AOS-16,GEG00015V,-110.532,54.5679,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015V
+XOM-GOM-9,GEG00016L,-88.6865,31.6803,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016L
+XOM-GOM-79,GEG00018Y,-93.5755,31.224,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018Y
+AC-10,,-112.675,44.8152,,,,Zircon,,,Emily Finzel,GeoChron,
+XOM-GOM-48,GEG00017U,-94.41,33.571,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017U
+08DH03,GEG00010X,135.226,69.7819,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010X
+RT28DZ7,,-72.2358,-51.2976,,,,zircon,,,Julie Fosdick,GeoChron,
+BMC-1,,-116.557,34.0074,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-77,GEG00018W,-92.7285,31.5594,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018W
+XOM-GOM-55,GEG00018A,-97.2622,32.4077,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018A
+XOM-GOM-18,GEG00016S,-87.0409,32.1361,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016S
+XOM-GOM-78,GEG00018X,-93.1921,31.48,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018X
+04AP226,GEG00010K,141.456,64.577,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010K
+J05-VC2,GEG0000QZ,-107.586,37.6789,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000QZ
+GR12-01,,-112.919,46.22,,,,zircon,,,Amy Weislogel,GeoChron,
+MCP-13,,-116.66,34.0309,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-58,GEG00018D,-97.8835,28.9904,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018D
+RR3,,-111.808,45.7412,,,,zircon,,,Amy Weislogel,GeoChron,
+18MT-17,,-112.589,44.4959,,,,Zircon,,,Emily Finzel,GeoChron,
+18AOD07,,56.6841,-129.658,,,,Zircon,,,Daniel Alberts,GeoChron,
+IEMCC0006: 08-174,,-78.9652,82.7302,,,,Zircon,,,Bill McClelland,GeoChron,
+TCB‚Äê205,,-149.129,63.2046,,,,Zircon,,,Brian A. Hampton,GeoChron,
+IEMCC0003: 08-161,,-76.0144,82.5645,,,,Zircon,,,Bill McClelland,GeoChron,
+XOM-AOS-6,GEG00015Q,-110.627,54.6151,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015Q
+Q4u,GEG0000QW,-107.944,44.12,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000QW
+09VLB30,GEG0000ZU,-138.359,59.6882,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000ZU
+NSS-07,,-111.733,45.8833,,,,zircon,,,Amy Weislogel,GeoChron,
+BC3-792,,-153.345,62.2619,,,,Zircon,,,Mariah C. Romero & Brian A. Hampton,GeoChron,
+Kuz 146-1,GEG00010Q,142.502,73.2189,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010Q
+XOM-GOM-42,GEG00017O,-89.6053,36.8716,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017O
+15CCS302,,-72.2027,-51.3101,,,,zircon,,,Julie Fosdick,GeoChron,
+15RF02,,-68.8098,-30.6017,,,,zircon,,,Julie Fosdick,GeoChron,
+18AOD06,,56.6825,-129.656,,,,Zircon,,,Daniel Alberts,GeoChron,
+XOM-AOS-20,GEG00015Y,-110.551,54.6661,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015Y
+IEMCC0007: 08-187,,-76.847,81.8834,,,,Zircon,,,Bill McClelland,GeoChron,
+GR-071702,,-148.536,62.6268,,,,Zircon,,,Mariah C. Romero,GeoChron,
+XOM-GOM-1,GEG00016D,-90.9432,32.1538,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016D
+MCP-6,,-116.645,34.0249,,,,zircon,,,Julie Fosdick,GeoChron,
+18AOD01,,56.6898,-129.579,,,,Zircon,,,Daniel Alberts,GeoChron,
+18MT-21 (Sandy Hollow thrust),,-112.565,45.438,,,,Zircon,,,,GeoChron,
+XOM-AOS-23,GEG00016A,-111.123,57.0916,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016A
+09VLB41,GEG0000ZX,-140.96,61.1654,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000ZX
+XOM-GOM-21,GEG00016V,-86.1277,32.52,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016V
+XOM-GOM-69,GEG00018O,-96.6488,31.2241,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018O
+071319BK-01,,-149.932,63.4292,,,,Zircon,,,Brandon Keough,GeoChron,
+18MT-20,,-112.678,44.8087,,,,Zircon,,,Emily Finzel,GeoChron,
+ZG_15M,,-112.574,45.4672,,,,Zircon,,,Justin Rosenblume,GeoChron,
+TCKKLC,,-112.725,45.6302,,,,Zircon,,,,GeoChron,
+XOM-GOM-35,GEG00017I,-88.2309,37.0826,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017I
+Prok 212,GEG00010P,124.492,71.805,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010P
+18ASN01,,57.8203,-130.087,,,,Zircon,,,Daniel Alberts,GeoChron,
+GC-052805-01,,-148.068,63.7476,,,,Zircon,,,Mariah C. Romero,GeoChron,
+RG1-146,,-150.441,62.7768,,,,Zircon,,,Mariah C. Romero & Brian A. Hampton,GeoChron,
+12RF09,,-68.7872,-30.6284,,,,zircon,,,Julie Fosdick,GeoChron,
+12CS09,,-68.5972,-30.1733,,,,zircon,,,Julie Fosdick,GeoChron,
+19MT-8_Pp,,-110.79,45.0925,,,,Zircon,,,Justin Rosenblume,GeoChron,
+XOM-AOS-9,GEG00015S,-110.589,54.6624,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015S
+CS_23M,,-111.47,46.0197,,,,Zircon,,,Justin Rosenblume,GeoChron,
+XOM-GOM-7,GEG00016J,-89.5187,32.0348,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016J
+STCA-2-07,,-111.96,45.8985,,,,zircon,,,Amy Weislogel,GeoChron,
+15CCS306,,-72.197,-51.3082,,,,zircon,,,Julie Fosdick,GeoChron,
+IEMCC0005: 08-164,,-75.1326,82.3412,,,,Zircon,,,Bill McClelland,GeoChron,
+XOM-AOS-14,GEG00015U,-110.538,54.5788,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015U
+NM_18M,,-111.736,46.1303,,,,Zircon,,,Justin Rosenblume,GeoChron,
+XOM-GOM-72,GEG00018R,-94.9964,33.167,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018R
+XOM-GOM-31,GEG00017E,-89.0882,34.7772,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017E
+RT28DZ5,,-72.2193,-51.3137,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-68,GEG00018N,-96.9695,31.288,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018N
+XOM-GOM-17,GEG00016R,-88.0864,32.2364,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016R
+12RH09,,-68.5286,-30.1459,,,,zircon,,,Julie Fosdick,GeoChron,
+IEMCC0004: 08-163,,-77.1572,82.7436,,,,Zircon,,,Bill McClelland,GeoChron,
+070518CH4,,-113.495,45.824,,,,Zircon,,,Caden J. Howlett,GeoChron,
+18AOD03,,56.6854,-129.568,,,,Zircon,,,Daniel Alberts,GeoChron,
+18MT-26,,-112.309,44.5676,,,,Zircon,,,Emily Finzel,GeoChron,
+XOM-GOM-20,GEG00016U,-86.4089,32.4128,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016U
+12CS06,,-68.597,-30.1721,,,,zircon,,,Julie Fosdick,GeoChron,
+CMK_1M,,-110.791,45.089,,,,Zircon,,,Justin Rosenblume,GeoChron,
+XOM-GOM-43,GEG00017P,-89.9277,36.8464,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017P
+XOM-GOM-76,GEG00018V,-93.0251,33.9511,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018V
+XOM-GOM-70,GEG00018P,-96.1097,31.9216,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018P
+15RF04,,-68.8225,-30.5994,,,,zircon,,,Julie Fosdick,GeoChron,
+EFC‚Äê071102‚Äê04,,-149.228,63.1697,,,,Zircon,,,Brian A. Hampton,GeoChron,
+CCR-8.2,,-112.856,45.005,,,,Zircon,,,Emily Finzel,GeoChron,
+15LDC05,,-72.3125,-51.2779,,,,zircon,,,Julie Fosdick,GeoChron,
+08DH29A,GEG00010Y,135.305,69.7433,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010Y
+XOM-GOM-62,GEG00018H,-95.4003,30.857,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018H
+HC02,,-68.4607,-30.1641,,,,zircon,,,Julie Fosdick,GeoChron,
+ELM09-U7,GEG00012V,64.6122,67.3761,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012V
+12RH16,,-68.5278,-30.1489,,,,zircon,,,Julie Fosdick,GeoChron,
+18AOD05,,56.6732,-129.531,,,,Zircon,,,Daniel Alberts,GeoChron,
+LC1-CHUL,,-149.617,63.1087,,,,Zircon,,,Mariah C. Romero,GeoChron,
+072709KR-02,,-145.129,63.187,,,,Zircon,,,Mariah C. Romero,GeoChron,
+XOM-GOM-6,GEG00016I,-89.525,32.0423,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016I
+061218CH1,,-113.44,45.86,,,,Zircon,,,Caden J. Howlett,GeoChron,
+XOM-GOM-67,GEG00018M,-97.0506,30.6433,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018M
+XOM-AOS-13,GEG00015T,-110.538,54.5788,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015T
+19MT-3_Pp,,-112.582,45.4395,,,,Zircon,,,Justin Rosenblume,GeoChron,
+15CCS105,,-72.2213,-51.313,,,,zircon,,,Julie Fosdick,GeoChron,
+17CCRT2-29,,-72.2913,-51.3173,,,,zircon,,,Julie Fosdick,GeoChron,
+J03-NM4,GEG0000QY,-107.861,37.7978,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000QY
+18ASN03,,57.8319,-130.095,,,,Zircon,,,Daniel Alberts,GeoChron,
+XOM-GOM-3,GEG00016F,-89.8765,31.9844,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016F
+14LDC-DZ4,,-72.2892,-51.28,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-24,GEG00016Y,-87.8022,33.8136,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016Y
+071820BK-01,,-150.046,63.5741,,,,Zircon,,,Brandon Keough,GeoChron,
+WW-1,,-116.652,33.9821,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-64,GEG00018J,-97.5756,29.6199,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018J
+CP40_300_1,,-111.893,37.6208,,,,Zircon,,,Kurt Sundell,GeoChron,
+XOM-GOM-32,GEG00017F,-90.1763,32.2884,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017F
+XOM-GOM-81,GEG00019A,-91.2277,30.2952,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00019A
+LMC-01,,-116.514,34.0047,,,,zircon,,,Julie Fosdick,GeoChron,
+IEMCC0009: 08-208,,-72.7416,82.689,,,,Zircon,,,Bill McClelland,GeoChron,
+09-067,GEG00012R,31.4034,59.8631,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012R
+XOM-GOM-38,GEG00017L,-88.4846,37.3416,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017L
+MCP-11,,-116.633,34.0208,,,,zircon,,,Julie Fosdick,GeoChron,
+081315KR-02,,-145.731,63.3298,,,,Zircon,,,Mariah C. Romero,GeoChron,
+070819BK-01,,-149.887,63.6079,,,,Zircon,,,Brandon Keough,GeoChron,
+ZG-186m,,-112.578,45.4685,,,,Zircon,,,Cole Gardner,GeoChron,
+XOM-GOM-49,GEG00017V,-94.9827,33.9333,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017V
+XOM-GOM-80,GEG00018Z,-93.9753,31.1233,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018Z
+XOM-GOM-11,GEG00016N,-88.6244,32.7721,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016N
+12RF08,,-68.7868,-30.6257,,,,zircon,,,Julie Fosdick,GeoChron,
+08 DH 33,GEG00010O,135.004,69.9505,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010O
+XOM-AOS-7,GEG00015R,-110.627,54.6151,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015R
+IEMCC0001: 08-146,,-78.2093,81.686,,,,Zircon,,,Bill McClelland,GeoChron,
+XOM-GOM-36,GEG00017J,-88.235,37.0313,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017J
+MCP-7,,-116.65,34.0232,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-2,GEG00016E,-90.6785,32.0288,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016E
+XOM-GOM-34,GEG00017H,-91.7185,31.8367,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017H
+XOM-GOM-57,GEG00018C,-98.0859,28.3333,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018C
+XOM-GOM-19,GEG00016T,-87.5318,32.0296,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016T
+Prok 212,GEG00010P,124.492,71.805,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010P
+12RF11,,-68.7892,-30.6288,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-37,GEG00017K,-88.354,37.0637,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017K
+09-083,GEG00012T,32.6328,60.0247,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012T
+MCP-25,,-116.658,34.0243,,,,zircon,,,Julie Fosdick,GeoChron,
+MVC-1,,-116.574,34.0107,,,,zircon,,,Julie Fosdick,GeoChron,
+MC-21,,-112.819,44.7703,,,,Zircon,,,Emily Finzel,GeoChron,
+XOM-AOS-26,GEG00016C,-111.042,57.1317,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016C
+18AOD04,,56.6732,-129.531,,,,Zircon,,,Daniel Alberts,GeoChron,
+XOM-GOM-66,GEG00018L,-97.6379,30.2087,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018L
+XOM-GOM-5,GEG00016H,-89.8942,31.031,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016H
+09-059,GEG00012Q,32.5919,60.0286,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012Q
+072018CH8,,-113.446,45.861,,,,Zircon,,,Caden J. Howlett,GeoChron,
+RB-0.5,,-112.68,44.7139,,,,Zircon,,,Emily Finzel,GeoChron,
+XOM-GOM-8,GEG00016K,-89.3142,31.9771,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016K
+SK_20M,,-111.8,45.8137,,,,Zircon,,,Justin Rosenblume,GeoChron,
+BH-12-01,,-112.923,45.8023,,,,Zircon,,,Amy Weislogel,GeoChron,
+OW12-04,,-112.94,46.1376,,,,zircon,,,Amy Weislogel,GeoChron,
+16MR18,,-148.889,63.7401,,,,Zircon,,,Mariah C. Romero,GeoChron,
+XOM-GOM-71,GEG00018Q,-95.7387,32.6401,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018Q
+FPK_8M,,-112.782,45.2859,,,,Zircon,,,Justin Rosenblume,GeoChron,
+TRDL-FP,,-112.782,45.2839,,,,Zircon,,,Cole Gardner,GeoChron,
+073115KR-01,,-148.843,63.8529,,,,Zircon,,,Mariah C. Romero,GeoChron,
+XOM-GOM-74,GEG00018T,-94.9999,33.3954,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018T
+XOM-AOS-22,GEG00015Z,-111.096,57.0662,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015Z
+XOM-GOM-59,GEG00018E,-96.8736,29.9521,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018E
+XOM-GOM-45,GEG00017R,-92.1945,34.7402,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017R
+CMF-67-83,,-112.889,46.4983,,,,zircon,,,Amy Weislogel,GeoChron,
+XOM-AOS-18,GEG00015X,-110.539,54.597,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015X
+XOM-GOM-54,GEG00017Z,-97.1857,32.9604,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017Z
+IEMCC0002: 08-147,,-78.1744,81.6882,,,,Zircon,,,Bill McClelland,GeoChron,
+XOM-GOM-40,GEG00017N,-89.5051,37.1355,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017N
+RT28DZ6,,-72.2204,-51.3116,,,,zircon,,,Julie Fosdick,GeoChron,
+GLEN-6-09,,-112.717,45.4715,,,,zircon,,,Amy Weislogel,GeoChron,
+18AOD02,,56.6715,-129.572,,,,Zircon,,,Daniel Alberts,GeoChron,
+08DH30A,GEG00010Z,135.204,69.8067,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010Z
+09VLB34,GEG0000ZW,-140.948,61.0313,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000ZW
+15CCS210,,-72.2165,-51.3131,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-50,GEG00017W,-95.789,33.9389,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017W
+XOM-GOM-39,GEG00017M,-89.4592,37.2549,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017M
+XOM-GOM-46,GEG00017S,-92.3959,34.5943,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017S
+XOM-GOM-13,GEG00016P,-88.6822,32.8822,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016P
+XOM-GOM-61,GEG00018G,-94.5833,30.9951,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018G
+18ASN02,,57.8262,-130.086,,,,Zircon,,,Daniel Alberts,GeoChron,
+XOM-AOS-17,GEG00015W,-110.532,54.5679,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00015W
+MCP-22,,-116.658,34.0246,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-23,GEG00016X,-87.6922,33.3534,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016X
+Q4l,GEG0000QX,-107.814,37.7117,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000QX
+14AVDZ1,,-72.3083,-51.2847,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-22,GEG00016W,-87.102,32.8781,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016W
+XOM-GOM-65,GEG00018K,-97.2795,30.0733,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018K
+15RF07,,-68.825,-30.598,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-AOS-25,GEG00016B,-111.042,57.1317,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016B
+08DH32,GEG00011A,135.222,69.7947,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00011A
+18AST01,,57.7894,-130.13,,,,Zircon,,,Daniel Alberts,GeoChron,
+XOM-GOM-60,GEG00018F,-96.5428,29.716,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018F
+Seven Devils Mountains,,-116.55,45.3297,,,,Zircon,,,H. Casares,GeoChron,
+14AVDZ2,,-72.3076,-51.2848,,,,zircon,,,Julie Fosdick,GeoChron,
+DCR09-1,,-111.473,45.792,,,,zircon,,,Amy Weislogel,GeoChron,
+CLA09-3B,,-112.024,45.8784,,,,Zircon,,,Amy Weislogel,GeoChron,
+XOM-GOM-27,GEG00017B,-89.2834,34.0906,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017B
+071118CH5,,-113.477,45.935,,,,Zircon,,,Caden J. Howlett,GeoChron,
+IEMCC0008: 08-188,,-78.5484,82.2395,,,,Zircon,,,Bill McClelland,GeoChron,
+071919BK-01,,-150.064,63.6022,,,,Zircon,,,Brandon Keough,GeoChron,
+LPK_1M,,-112.53,44.5306,,,,Zircon,,,Justin Rosenblume,GeoChron,
+XOM-GOM-28,GEG00017C,-88.2599,35.0666,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017C
+HC01,,-68.4607,-30.162,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-29,GEG00017D,-88.1407,34.774,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017D
+15SAS08,,-68.6152,-30.204,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-26,GEG00017A,-89.0919,33.799,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017A
+ELM09-U6,GEG00012U,64.3667,66.9467,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012U
+XOM-GOM-53,GEG00017Y,-97.0183,33.5934,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017Y
+XOM-GOM-33,GEG00017G,-90.9261,32.334,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017G
+test,,123.457,12.3456,,,,Zircon,,,,GeoChron,
+CLA09-4B,,-111.696,45.8368,,,,Zircon,,,Amy Weislogel,GeoChron,
+15LDC02/14DZ3,,-72.2893,-51.28,,,,zircon,,,Julie Fosdick,GeoChron,
+RA-3/5-01,GEG00010M,144.515,64.5328,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010M
+XOM-GOM-4,GEG00016G,-89.897,31.9791,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016G
+HC06,,-68.4411,-30.1661,,,,zircon,,,Julie Fosdick,GeoChron,
+14LDCDZ2,,-72.2894,-51.2807,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-14,GEG00016Q,-88.9116,33.2321,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016Q
+09VLB42,GEG0000ZY,-140.96,61.1654,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000ZY
+18AST02,,57.79,-130.13,,,,Zircon,,,Daniel Alberts,GeoChron,
+XOM-GOM-25,GEG00016Z,-89.108,33.5926,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016Z
+XOM-GOM-56,GEG00018B,-99.4946,27.4417,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018B
+OC1-630,,-149.794,63.0768,,,,Zircon,,,Mariah C. Romero & Brian A. Hampton,GeoChron,
+09-128,GEG00012W,64.8411,67.3575,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00012W
+12RH10,,-68.5267,-30.1486,,,,zircon,,,Julie Fosdick,GeoChron,
+12CS08,,-68.5963,-30.1726,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-44,GEG00017Q,-91.9869,34.954,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017Q
+08DH02,GEG00010W,135.174,69.6942,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG00010W
+XOM-GOM-73,GEG00018S,-94.1207,33.4106,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018S
+072920BK-01,,-149.872,63.6244,,,,Zircon,,,Brandon Keough,GeoChron,
+081115KR-01,,-145.864,63.6139,,,,Zircon,,,Mariah C. Romero,GeoChron,
+NH-1-08,,-111.925,45.98,,,,zircon,,,Amy Weislogel,GeoChron,
+18MT-27 (Snowcrest Range),,-112.3,44.7571,,,,Zircon,,,,GeoChron,
+12ET02,,-68.7836,-30.2528,,,,zircon,,,Julie Fosdick,GeoChron,
+18MT-36,,-112.168,44.7014,,,,Zircon,,,Emily Finzel,GeoChron,
+XOM-GOM-47,GEG00017T,-92.8457,34.3887,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017T
+09VLB31,GEG0000ZV,-140.541,60.932,,,,zircon,,,GGehrels,GeoChron,http://www.geochron.org/viewid.php?id=GEG0000ZV
+XOM-GOM-12,GEG00016O,-88.6668,32.8281,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016O
+12ET01,,-68.7833,-30.2526,,,,zircon,,,Julie Fosdick,GeoChron,
+XOM-GOM-75,GEG00018U,-93.0251,33.6594,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018U
+REN09-3,,-112.643,45.4686,,,,zircon,,,Amy Weislogel,GeoChron,
+XOM-GOM-63,GEG00018I,-96.0839,30.476,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00018I
+RT28DZ8,,-72.2382,-51.2967,,,,zircon,,,Julie Fosdick,GeoChron,
+HC04,,-68.4518,-30.1633,,,,zircon,,,Julie Fosdick,GeoChron,
+071918CH7,,-113.438,45.939,,,,Zircon,,,Caden J. Howlett,GeoChron,
+XOM-GOM-52,GEG00017X,-96.5006,33.9556,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00017X
+XOM-GOM-10,GEG00016M,-88.4342,32.5498,,,,zircon,,,Blum,GeoChron,http://www.geochron.org/viewid.php?id=GEG00016M
+,,,,,,,,,,,,
+Freudenburg 1-31_PN#34558,,-85.30834,43.82653,UD-Bunt Bluff Group,Silurian-Llandovery (Aeronian),IG,zircon,,,Mohammad Al-Musawi ,LaserChron Archive,https://drive.google.com/drive/folders/13iRFswYQ_bDapqpGQUSDTh-Asu2mTLdp?usp=sharing
+Snowplow #1-5_PN# 36758,,-83.865137,44.937807,Byron Formation,Silurian-Llandovery (Aeronian),IG,zircon,,,Mohammad Al-Musawi ,LaserChron Archive,https://drive.google.com/drive/folders/13iRFswYQ_bDapqpGQUSDTh-Asu2mTLdp?usp=sharing
+SW20-001 2811-2813,,-116.886865,40.306305,,,IG,zircon,,,Gabriel Aliaga,LaserChron Archive,https://drive.google.com/drive/folders/1uDCE8sIphSoZWALxZJoGOcxSl2BlcScM?usp=sharing
+SW20-001 3368.5-3370.5,,-116.886865,40.306305,,,IG,zircon,,,Gabriel Aliaga,LaserChron Archive,https://drive.google.com/drive/folders/1uDCE8sIphSoZWALxZJoGOcxSl2BlcScM?usp=sharing
+SW20-001 3062.5-3064,,-116.886865,40.306305,,,IG,zircon,,,Gabriel Aliaga,LaserChron Archive,https://drive.google.com/drive/folders/1uDCE8sIphSoZWALxZJoGOcxSl2BlcScM?usp=sharing
+SW20-001 2765-2767,,-116.886865,40.306305,,,IG,zircon,,,Gabriel Aliaga,LaserChron Archive,https://drive.google.com/drive/folders/1uDCE8sIphSoZWALxZJoGOcxSl2BlcScM?usp=sharing
+SW20-001 3318-3320,,-116.886865,40.306305,,,IG,zircon,,,Gabriel Aliaga,LaserChron Archive,https://drive.google.com/drive/folders/1uDCE8sIphSoZWALxZJoGOcxSl2BlcScM?usp=sharing
+SW20-002 1535-1536,,-116.883092,40.307393,,,IG,zircon,,,Gabriel Aliaga,LaserChron Archive,https://drive.google.com/drive/folders/1uDCE8sIphSoZWALxZJoGOcxSl2BlcScM?usp=sharing
+OA20-AI02,,-122.439878,37.866594,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI03,,-122.439889,37.866392,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI05,,-122.440486,37.864269,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI06,,-122.421086,37.858675,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI07,,-122.421025,37.858417,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI08,,-122.43105,37.870103,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI09,,-122.434114,37.864328,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI11,,-122.426222,37.856492,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI12,,-122.431928,37.861522,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI14,,-122.426075,37.859428,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+OA20-AI16,,-122.42295,37.865,Franciscan Complex,Cretaceous,DZ,zircon,,,Anfinson / Rowe,LaserChron Archive,https://drive.google.com/drive/folders/11p4HODeatDSRPl7gtB4NMjeG2oVugfqq?usp=sharing
+S1,,-103.41009,36.97215,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+S2,,-104.65834,34.91935,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+S3,,-103.40967,36.97334,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+S4,,-105.25631,35.51214,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+S5,,-104.68455,35.0287,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+S6,,-104.68778,35.5148,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+S7,,-103.40967,36.9735,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-TR-3,,-101.099832,34.470238,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-TE-2,,-101.682945,34.978876,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-TE-4,,-101.684523,34.980958,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-TE-3,,-101.684127,34.980079,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-G-1,,-101.680793,34.97812,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-TR-2,,-101.100349,34.470063,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-CCs2,,-101.103368,34.470236,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-paleosol Top,,-101.095461,34.470347,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-CC-4,,-101.685347,34.983857,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-CCs3,,-101.102806,34.470092,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-G-2,,-101.680648,34.977924,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-CCS4,,-101.101067,34.470021,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-CCS1,,-101.106794,34.468985,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-TC-2,,-101.096687,34.469795,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PD-TJ-2,,34.982245,-101.684969,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256 PQTR-1,,34.471468,-101.092871,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256 PQTR-2,,34.471506,-101.092723,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256-base-1,,34.47129,-101.093656,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PDCC3,,34.983635,-101.685331,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PDTE1,,34.978631,-101.682554,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PDTJ1,,34.981467,-101.6847,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256TC3,,34.469771,-101.096585,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256TR4,,34.470317,-101.099421,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+PDCC1,,34.983524,-101.685284,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+256TR1,,34.470022,-101.100471,,,DZ,zircon,,,Blake Bezucha,LaserChron Archive,https://drive.google.com/drive/folders/1Xa_F3Cly9N-_H8DZ7ymMaetV7Xxn2uq7?usp=sharing
+U1450 A 100F 475 Mbsf,,,,,,DZ,zircon,,Yes,Jeff Amato,LaserChron Archive,https://docs.google.com/document/d/1N9BpSpTkDr5Pi2G3bE-2uaVa4m14ympEiHN2WB7X27k/edit
+U1449 A 16H 82 Mbsf,,,,,,DZ,zircon,,Yes,Daniel Balbin,LaserChron Archive,https://docs.google.com/document/d/1FQ1VbZXdXrVO1f0rMuV0F4oKqHTmewNAUiqttmXTIyw/edit
+U1454 B 16F 85 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1454 B 4H 30 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1449 A 2H 8 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1454 B 32F 160 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1454 B 12F 65 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1454 B 6F 40.5 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1454 B 26F 130 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1450 A 88H 425 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1454 B 22F 113 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1450 A 32F 154 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1450 A 48F 230 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1450 40H 192 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1455 C 35F 140 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1455 C 18F 92 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1455 C 6F 32 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1455 C 2H 40.5 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1455 C 9F 47 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1452 B 31 160 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1453 A 40F 198 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1451 A 33F 210 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1449 A 37H ? Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1451 A 3H 20 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1451 A 22H 115 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+DBK-27 Holbrook,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+U1455 C 2H 40.5 Mbsf,,,,,,DZ,zircon,Long/Lat Unknown,Possible?,Blum/Sundell/Najman,LaserChron Archive,https://docs.google.com/document/d/1j9tWUelarYvr6zotWRaDTDRLsmY-7FBjDmRf5yzS1mo/edit
+EO7 Nepal LG,,86.71489,27.80391,,Miocene,,zircon,,,Brooklyn Boatright,LaserChron Archive,https://docs.google.com/document/d/18-zR2nut5FMgFZVGhs0yCnzYVmUABIMLX0CXgb2bDuw/edit
+EO6 Nepal LG,,86.71489,27.80391,,Miocene,,zircon,,,Brooklyn Boatright,LaserChron Archive,https://docs.google.com/document/d/18-zR2nut5FMgFZVGhs0yCnzYVmUABIMLX0CXgb2bDuw/edit
+EO3 Nepal LG,,86.81023,27.94834,,Miocene,,zircon,,,Brooklyn Boatright,LaserChron Archive,https://docs.google.com/document/d/18-zR2nut5FMgFZVGhs0yCnzYVmUABIMLX0CXgb2bDuw/edit
+EO4 Nepal LG,,86.74882,27.84602,,Miocene,,zircon,,,Brooklyn Boatright,LaserChron Archive,https://docs.google.com/document/d/18-zR2nut5FMgFZVGhs0yCnzYVmUABIMLX0CXgb2bDuw/edit
+NLG E-2,,86.81975,27.8955,,Miocene,,zircon,,,Brooklyn Boatright,LaserChron Archive,https://docs.google.com/document/d/18-zR2nut5FMgFZVGhs0yCnzYVmUABIMLX0CXgb2bDuw/edit
+LM-S1-3,,-114.84885,33.83481,Little Marias,Jurassic,IG,zircon,,,Sakinah Muhammad,LaserChron Archive,https://docs.google.com/document/d/1AVJDW81KbBlRXK5OQb8CPOUgwsf9sT5NSB4czaZs3Fc/edit
+MU-T1,,-114.78951,33.52563,Mule Mtns,Jurassic,IG,zircon,,,Sakinah Muhammad,LaserChron Archive,https://docs.google.com/document/d/1AVJDW81KbBlRXK5OQb8CPOUgwsf9sT5NSB4czaZs3Fc/edit
+MU-T3,,-114.78755,33.52568,Mule Mtns,Jurassic,IG,zircon,,,Sakinah Muhammad,LaserChron Archive,https://docs.google.com/document/d/1AVJDW81KbBlRXK5OQb8CPOUgwsf9sT5NSB4czaZs3Fc/edit
+LM-HW1,,-114.88451,33.8467,Little Marias,Jurassic,IG,zircon,,,Sakinah Muhammad,LaserChron Archive,https://docs.google.com/document/d/1AVJDW81KbBlRXK5OQb8CPOUgwsf9sT5NSB4czaZs3Fc/edit
+LM-S1-9,,-114.88836,33.86945,Little Marias,Jurassic,IG,zircon,,,Sakinah Muhammad,LaserChron Archive,https://docs.google.com/document/d/1AVJDW81KbBlRXK5OQb8CPOUgwsf9sT5NSB4czaZs3Fc/edit
+MC-M0,,-114.90115,33.78772,,Jurassic,IG,zircon,,,Emilia Caylor,LaserChron Archive,https://docs.google.com/document/d/10Tb5PeMFu1F5xMw4OhYbUzpHCfN6AxEmGt4nOKMwivs/edit
+,,,,,,,,Lat/Long all unknown,,Clausen,LaserChron Archive,https://drive.google.com/drive/folders/18RwmaT8dnJ0ZG42V9J-VwekuVXRdqLOD?usp=sharing
+FR-187,,-118.671794,35.702798,Metamorphic pendant,Pre-mesozoic (?),IG,zircon,,,Diane Clemens-Knott,LaserChron Archive,https://docs.google.com/document/d/1Ig-gpbFCg81TA9VDCUy_1AmsvRlPgffs91kHdgUQLoA/edit
+FR-248,,-118.648899,36.24986,Metamorphic pendant,Pre-mesozoic (?),IG,zircon,,,Diane Clemens-Knott,LaserChron Archive,https://docs.google.com/document/d/1Ig-gpbFCg81TA9VDCUy_1AmsvRlPgffs91kHdgUQLoA/edit
+FR-236c,,-118.66445,36.251,Metamorphic pendant,Jurassic (?),IG,zircon,,,Diane Clemens-Knott,LaserChron Archive,https://docs.google.com/document/d/1Ig-gpbFCg81TA9VDCUy_1AmsvRlPgffs91kHdgUQLoA/edit
+FR-240,,,,Metamorphic pendant,Neoproterozoic,IG,zircon,Long/Lat Unknown,,Diane Clemens-Knott,LaserChron Archive,https://docs.google.com/document/d/1Ig-gpbFCg81TA9VDCUy_1AmsvRlPgffs91kHdgUQLoA/edit
+04GJP01,,-126.4278,52.45367,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP09,,-126.924,52.347,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP12,,-127.163,52.315,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP13,,-127.177,52.307,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP16,,-127.217,52.385,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP17,,-127.331,52.231,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP22,,-127.223,52.537,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP23,,-127.247,52.548,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP24,,-126.95287,52.69222,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP27,,-127.05583,52.62312,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP29,,-127.445,52.371,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP32,,-127.959,52.141,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP36,,-128.133,52.2,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP37,,-128.2517,52.164483,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP39,,-128.317,52.1128,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP40,,-128.373,52.072,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP43,,-128.2884,52.535,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP55,,-129.4928,53.1218,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP58,,-129.3938,53.092383,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP60,,-129.1878,53.029117,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP62,,-129.1489,53.103533,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP64,,-129.165,53.167,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP68,,-129.282,53.402,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GPJ69,,-129.235,53.51,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP77,,-128.091,53.413,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP78,,-128.1681,53.47777,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP84,,-128.798,53.734,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+04GJP89,,-128.7602,53.90612,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+MT05-106,,-128.029,52.9191,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+MT05-111,,-128.717,52.477817,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+MT05-135,,-128.087,53.4367,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+MT05-145,,-128.44,54.4213,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+MT05-155,,-129.511,55.0355,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+Ecstall East,,-129.8859,54.22508,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+Stephens,,-130.8046,54.18855,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+McCauley West,,-130.4002,53.70625,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+Otter West,,-129.7318,53.13519,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+83GJP53,,-129.5841,54.21083,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+Treadwell,,-134.3725,58.8667,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+90GC796,,135 21 38,59 19 49,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+89GC606,,-134.13528,58.29778,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+84GC05,,-135.20972,59.5494,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+82GS112,,-134.05917,58.33139,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+82GS111,,-134.015,58.40139,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+81GS07,,-134.13056,58.26667,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+81GS05,,-134.14278,58.29056,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+01MR03,,-126.30091,50.514124,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+01MR11,,-125.98688,50.636663,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+01MR31,,-125.65463,50.773608,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+01MR66,,-126.177,50.668321,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR44,,-125.04828,51.294211,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR48,,-125.05391,51.2492745,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR55,,-125.13962,51.182883,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR61,,-125.14591,51.250243,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR68,,-125.12652,51.061118,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR69,,-124.96827,51.143917,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR70,,-124.87814,51.00101,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR71,,-124.76891,51.056682,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR72,,-124.54211,51.105482,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14MR73,,-124.12577,51.09042,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15MR03,,-125.56864,50.9135743,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15MR21,,-124.99334,50.9527599,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15MR28,,-124.91972,50.8941384,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15MR31,,-124.48003,50.9285403,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15MR42,,-124.50036,51.2326164,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15MR61,,,,,,,zircon,Lat/Long Unknown,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN03,,-126.64653,50.641405,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN06,,-126.506,50.642431,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN13,,-126.37977,50.65463,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN30,,-125.90624,50.690912,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN37,,-125.7839,50.705151,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN38A,,-125.7839,50.705151,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN38B,,-125.57908,50.9,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN63C,,-125.63819,50.889391,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN69B,,-125.68626,50.776058,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KN90,,-126.67914,50.60928,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS01,,-125.52987,50.980425,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS58,,-125.5394,51.045711,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS64,,-125.7839,50.705151,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS78,,-125.63047,50.86399,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS79,,-125.60566,50.810436,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS80,,-125.86933,50.668069,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS81,,-126.02187,50.663017,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS82,,-126.05584,50.659147,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15KS83,,-126.10356,50.645814,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+15GK37,,-126.21336,50.5603,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+BCKH13,,-125.51695,50.923259,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY01,,-125.42921,50.714433,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY02,,-125.51936,50.664147,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY03,,-125.55702,50.606001,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY04,,-125.55588,50.619616,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY11,,-124.90645,50.845607,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY13,,-124.94815,50.833373,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY14,,-124.89584,50.810387,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY18,,-124.90409,50.776868,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY23,,-124.89222,50.724768,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY24,,-124.91233,50.690587,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY25,,-124.92423,50.666465,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY31,,-124.93106,50.554037,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY32,,-124.97997,50.498652,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY36,,-124.99096,50.54054,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY38,,-125.0635,50.5118016,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY39,,-125.08184,50.5073849,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY40,,-124.89562,50.559172,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY41,,-125.05349,50.4744895,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY42,,-125.05063,50.4626916,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY44,,-125.11665,50.4131416,,,,zircon,,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+14IY49,,,,,,,zircon,Lat/Long unknown,,Cecil/CMB,LaserChron Archive,https://docs.google.com/document/d/1oomfIzOBg5IFoAscZGTC8LXDb_DFvsNCkcRTs_Z2bto/edit
+JC-20-50,,-152.055418,67.54828,Siliceous clastic rocks,Middle Devonian (?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-53,,-152.133006,67.573773,Beaucoup Formation,Devonian or older,,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-64,,-152.057146,67.45157,Calc schist,Devonian or older,,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-72,,-152.035581,67.405369,Hunt Fork Schist,Devonian (?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-80a,,-152.254927,67.347425,Granitic gneiss- Dg,Devonian,,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-80b,,-152.254927,67.347425,Granitic gneiss- Dg,Devonian,,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-88/89,,-152.226562,67.304913,Hunt Fork Schist- Dhs,Devonian(?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-97,,-152.10941,67.362393,Chloritic and carbonate rocks,Devonian(?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-100,,-151.984675,67.270237,Hunt Fork Schist- Dhs(?),Devonian(?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-101,,-151.948067,67.231423,Hunt Fork Schist- Dhs(?),Devonian(?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-102,,-151.877214,67.185452,Hunt Fork Schist- Dhs(?),Devonian(?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+JC-20-104,,-151.839749,67.163078,Phyllite Belt,Devonian(?),,zircon,,,Craig/Miller,LaserChron Archive,https://docs.google.com/document/d/1dqe75G1Gj2TaDiY1jK8WwyZYzHbZDG6XJfVupi_tAFk/edit
+MD20bg-43,,-112.32771,27.337278,Boleo Fm,Miocene,IG,zircon,,,Mike Darin,LaserChron Archive,https://docs.google.com/document/d/1ILSOVqo5aBrryz9YKBVy0AK7e9xlzEz23qcpuHt4t34/edit
+MD19bg-52,,,,,Late Cretaceous,IG,zircon,Lat/Long Unknown,Possible?,Mike Darin,LaserChron Archive,https://docs.google.com/document/d/16offXoRybjQKJtVCQqE8AG_blGr-FCdP1KKdQPSoB38/edit
+MD20ee-97,,,,,Paleo-proterozoic,IG,zircon,Lat/Long Unknown,Possible?,Mike Darin,LaserChron Archive,https://docs.google.com/document/d/16offXoRybjQKJtVCQqE8AG_blGr-FCdP1KKdQPSoB38/edit
+MD20ee-101,,,,,Late Cretaceous,IG,zircon,Lat/Long Unknown,Possible?,Mike Darin,LaserChron Archive,https://docs.google.com/document/d/16offXoRybjQKJtVCQqE8AG_blGr-FCdP1KKdQPSoB38/edit
+MD20ee-112,,,,,Cretaceous,IG,zircon,Lat/Long Unknown,Possible?,Mike Darin,LaserChron Archive,https://docs.google.com/document/d/16offXoRybjQKJtVCQqE8AG_blGr-FCdP1KKdQPSoB38/edit
+BUG7,,,,,,DZ,zircon,Lat/Long Unknown,Possible?,Daniel Collins/Pete DeCelles,LaserChron Archive,https://docs.google.com/document/d/11NE7EUejAF2es4QOvBD4ynI6oNCVDOpPs6RwSPqTNVU/edit
+BU48,,,,,,DZ,zircon,Lat/Long Unknown,Possible?,Daniel Collins/Pete DeCelles,LaserChron Archive,https://docs.google.com/document/d/11NE7EUejAF2es4QOvBD4ynI6oNCVDOpPs6RwSPqTNVU/edit
+No samples listed yet,,,,,,,,,"Yes, come back ",Drabon/Stoll,LaserChron Archive,https://docs.google.com/document/d/1mOy-KKSKw37eLqGfAcfSPFOJUlSMIUvgrK0dcR3R_Ds/edit
+E1850-28,,69.965278,43.526389,Kurgan Fm,Tonian,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+E1850-X,,69.965278,43.526389,Kurgan Fm,Tonian,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+A1602-64.2,,-117.0718,48.95721,Monk Formation,Cryogenian-Edicaran,mixed magmatic/detrital,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+A1604-125.3,,-116.99313,49.0179,Irene Volcanics,Cryogenian,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+A1610-1090.5,,-117.04968,48.94571,Leola Volcanics,Cryogenian,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+A1709-1,,-89.756767,46.44025,Emperor Volcanics,Paleoproterozoic,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+LA1818,,-89.794175,46.463939,Emperor Volcanics,Paleoproterozoic,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+A1803-68,,-89.78475,46.459418,Emperor Volcanics,Paleoproterozoic,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+A1803-147,,-89.78445,46.460519,Emperor Volcanics,Paleoproterozoic,magmatic,zircon,,,Athena Eyster / Emmy Smith / Mary Lonsdale,LaserChron Archive,https://docs.google.com/document/d/1NCtIecdI6wOQCjrEHH3tw7I3dTrbcAC6CMcO3CDzGzE/edit
+TRMS-01,,4408109,338659,,Triassic,DZ metased,zircon,Decimal in long/lat?,,Nolan Dellerman,LaserChron Archive,https://docs.google.com/document/d/1rM3FK5bVYGZJzXrTpjgW184lLo83U9LXQAzinThatoU/edit
+TRMS-02,,4408073,338770,,Triassic,DZ metased,zircon,Decimal in long/lat?,,Nolan Dellerman,LaserChron Archive,https://docs.google.com/document/d/1rM3FK5bVYGZJzXrTpjgW184lLo83U9LXQAzinThatoU/edit
+TRMS-03,,4407973,338878,,Triassic,DZ metased,zircon,Decimal in long/lat?,,Nolan Dellerman,LaserChron Archive,https://docs.google.com/document/d/1rM3FK5bVYGZJzXrTpjgW184lLo83U9LXQAzinThatoU/edit
+JD-01,,4407985,338604,,Jurassic,IG diorite,zircon,Decimal in long/lat?,,Nolan Dellerman,LaserChron Archive,https://docs.google.com/document/d/1rM3FK5bVYGZJzXrTpjgW184lLo83U9LXQAzinThatoU/edit
+JD-02,,4407852,338524,,Jurassic,IG diorite,zircon,Decimal in long/lat?,,Nolan Dellerman,LaserChron Archive,https://docs.google.com/document/d/1rM3FK5bVYGZJzXrTpjgW184lLo83U9LXQAzinThatoU/edit
+M-1040,,69.44911,-38.58644,,Early Cretaceous,DZ,zircon,Long supposed to be neg?,,Emily Finzel,LaserChron Archive,https://docs.google.com/document/d/1nstYIlUjgvUAK6kc3UyR1GDRFnx-ppic0RJURpWse8c/edit
+M-1015,,-69.437,-38.5701,,Early Cretaceous,DZ,zircon,,,Emily Finzel,LaserChron Archive,https://docs.google.com/document/d/1nstYIlUjgvUAK6kc3UyR1GDRFnx-ppic0RJURpWse8c/edit
+CDO-308-8,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-04,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+SJ-001,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+SF-001,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-5,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-4,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG36,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG27,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG29,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+LRT-1,,,,,,IG,zircon,Lat/Long Unknown,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-2,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-3,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-6,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+Gatp-003,,-108.368417,27.3205,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+Gatp-001,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+Gatp-002,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CONOR 123001,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CONOR 010205,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-10,,-107.986667,27.073611,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+CDO-308-6,,,,,,IG,zircon,Lat/Long Unknown,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG1,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG2,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG11,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG10,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG7,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG8,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG5,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG6,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG30,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG12,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG9,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG40,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+Chi-001,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+ApeDM-003,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+SL002,,-108.368397,27.320525,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG38,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG42,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+TG44,,-104.45,24.4,,,IG,zircon,,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+T5D9,,87°30′00′′E,28°15′00′′N,,,Metamorphic,zircon,Decimal in long/lat?,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+T5D6,,87°30′00′′E,28°15′00′′N,,,Metamorphic,zircon,Decimal in long/lat?,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+T5D30a,,87°30′00′′E,28°15′00′′N,,,Metamorphic,zircon,Decimal in long/lat?,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+T5D12,,87°30′00′′E,28°15′00′′N,,,Metamorphic,zircon,Decimal in long/lat?,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+T5D29,,87°30′00′′E,28°15′00′′N,,,Metamorphic,zircon,Decimal in long/lat?,,Jose Garcia / Ali Munazaam,LaserChron Archive,https://docs.google.com/document/d/1jXdTH2PXqmOk_oVQ3JW3UalX7NSvf3wNS7ycS3FRJXk/edit
+DAG-MBSJF1-3-071119,,,,,,,zircon,Lat/Long Unknown,,David Gonzales,LaserChron Archive,https://docs.google.com/document/d/1FQ7O-jjztjMLicuHcoYqdadySfiuk89PC9CXBhpXXuo/edit
+CG18-3-Roan,,-77.59146,36.42734,Modern Sediment,Modern,DZ,zircon,,,Gooley/Craddock/Counts,LaserChron Archive,https://docs.google.com/document/d/14anHPhjJWcviOzOJs0CeBwIqaKAk6kMFg4R0EF6nA4U/edit
+CG18-09-PD,,-79.8681,34.94659,Modern Sediment,Modern,DZ,zircon,,,Gooley/Craddock/Counts,LaserChron Archive,https://docs.google.com/document/d/14anHPhjJWcviOzOJs0CeBwIqaKAk6kMFg4R0EF6nA4U/edit
+CG18-12-Sav,,-82.03593,33.5481,Modern Sediment,Modern,DZ,zircon,,,Gooley/Craddock/Counts,LaserChron Archive,https://docs.google.com/document/d/14anHPhjJWcviOzOJs0CeBwIqaKAk6kMFg4R0EF6nA4U/edit
+CG20-2-Chatt,,-84.9948,32.4955,Modern Sediment,Modern,DZ,zircon,,,Gooley/Craddock/Counts,LaserChron Archive,https://docs.google.com/document/d/14anHPhjJWcviOzOJs0CeBwIqaKAk6kMFg4R0EF6nA4U/edit
+CG21-1-Susq,,-76.142972,39.608972,Modern Sediment,Modern,DZ,zircon,,,Gooley/Craddock/Counts,LaserChron Archive,https://docs.google.com/document/d/14anHPhjJWcviOzOJs0CeBwIqaKAk6kMFg4R0EF6nA4U/edit
+CG21-2-Conn,,,,Modern Sediment,Modern,DZ,zircon,Lat/Long Unknown,Yes,Gooley/Craddock/Counts,LaserChron Archive,https://docs.google.com/document/d/14anHPhjJWcviOzOJs0CeBwIqaKAk6kMFg4R0EF6nA4U/edit
+WDease_600-627,,-151.6358341,71.15845777,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+WDease_1099-1111,,-151.6358341,71.15845777,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+WDease_1900-1918,,-151.6358341,71.15845777,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Cabot_690-1200,,-155.2191483,71.32334371,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Nsimp1_290-300,,-154.9717374,71.05599725,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Nsimp1_1489-1499,,-154.9717374,71.05599725,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Nsimp1_2090-2100,,-154.9717374,71.05599725,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Nsimp1_3150-3170,,-154.9717374,71.05599725,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Nsimp1_3760-3774,,-154.9717374,71.05599725,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Simp1_211-241,,-155.3678464,70.95293005,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Simp1_930-950,,-155.3678464,70.95293005,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Minga_1000-1150,,-154.7467167,70.9829429,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+ESimp14_305-315,,-154.6395185,70.98230906,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+ESimp14_565-575,,-154.6395185,70.98230906,Brookian Sequence,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+FishCk_225-234,,-151.8676707,70.31053247,Schrader Bluff Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+FishCk_1225-1235,,-151.8676707,70.31053247,Schrader Bluff Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Antares1_1153-1160,,-152.7238196,71.03567499,Schrader Bluff Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Antares1_1652-1657,,-152.7238196,71.03567499,Schrader Bluff Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Awuna_6020,,-158.0211654,69.15284705,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Seabee_10096,,-152.1767274,69.38097678,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Seabee_12038-12041,,-152.1767274,69.38097678,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Tulugak_9021-9050,,-151.3291048,68.98444162,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Oumalik1_9280-9281,,-155.9724315,69.84552983,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Oumalik1_10669-10676,,-155.9724315,69.84552983,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Inigok_7054-7064,,-153.0991679,70.00485285,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+Inigok_8848-8852,,-153.0991679,70.00485285,Torok Fm.,Cretaceous,DZ,zircon,,,Gooley/Lease,LaserChron Archive,https://docs.google.com/document/d/1wBrK-JbE98tQm77Otq_LvztJSUmlAY5-ziskH4sORM4/edit
+MJC19-12,,-77.565919,-9.150583,Cordillera Blanca Batholith @ Ulta,End Miocene-Early Pliocene,IG,zircon,,,Taylor Grambling,LaserChron Archive,https://docs.google.com/document/d/1C5cvdZq79YP-tIT_3H-2QcrddXFOmbil_AbTSDwdCuY/edit
+MJC19-16,,-77.643358,9.068903,Cordillera Blanca Batholith @ Llaganuco,End Miocene-Early Pliocene,IG,zircon,,,Taylor Grambling,LaserChron Archive,https://docs.google.com/document/d/1C5cvdZq79YP-tIT_3H-2QcrddXFOmbil_AbTSDwdCuY/edit
+MJC19-14,,-77.754758,-8.9559,Cordillera Blanca Batholith @ Santa Cruz,End Miocene-Early Pliocene,IG,zircon,,,Taylor Grambling,LaserChron Archive,https://docs.google.com/document/d/1C5cvdZq79YP-tIT_3H-2QcrddXFOmbil_AbTSDwdCuY/edit
+MJC19-08,,-77.01661,-10.37031,Huayllapa Pluton Domain 3,Oligocene-Early Miocene,IG,zircon,,,Taylor Grambling,LaserChron Archive,https://docs.google.com/document/d/1C5cvdZq79YP-tIT_3H-2QcrddXFOmbil_AbTSDwdCuY/edit
+,,,,,,,,,Yes,Alexis Morgan Gray,LaserChron Archive,https://drive.google.com/drive/folders/1BVXLxh3CI-mtjPVLyemY7RmUCr7w8jFp?usp=sharing
+EH1522WR,,,,,,IG,zircon,Lat/Long Unknown,,Erik Haroldson,LaserChron Archive,https://docs.google.com/document/d/1Ru26ByvpOelmiWcKMbx4GRP1l2h7z5WTwEqyLjWVSuc/edit
+EH1521WR,,,,,,IG,zircon,Lat/Long Unknown,,Erik Haroldson,LaserChron Archive,https://docs.google.com/document/d/1Ru26ByvpOelmiWcKMbx4GRP1l2h7z5WTwEqyLjWVSuc/edit
+ZRCM1,,-121.0046,38.2407,,,DZ,zircon,,,Montana & Chris Hodges,LaserChron Archive,https://docs.google.com/document/d/1o6L0ofgFkritIpScdZpY-BN7NSwM3cHmrYXfTJpl4f0/edit
+ZRCM5,,-120.97722,38.2343,,,DZ,zircon,,,Montana & Chris Hodges,LaserChron Archive,https://docs.google.com/document/d/1o6L0ofgFkritIpScdZpY-BN7NSwM3cHmrYXfTJpl4f0/edit
+ZRCM6,,-121.00547,38.24198,,,DZ,zircon,,,Montana & Chris Hodges,LaserChron Archive,https://docs.google.com/document/d/1o6L0ofgFkritIpScdZpY-BN7NSwM3cHmrYXfTJpl4f0/edit
+H2O-CBQM-1,,W 112.24648,N 34.26780,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-ASH-1,,W 112.17540,N 34.28238,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-CHERRY-2A,,W 111.32557,N 34.14148,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-CHERRY-2C,,W 111.32557,N 34.14148,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-McClure-1,,W 105.43294,N 38.34983,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-Mcclure-2,,W 105.43363,N 38.35268,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-FLO-2,,W 107.65709,N 32.14191,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-CHERRY-3A,,W 111.32907,N 34.19248,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-CHERRY-3B,,W 111.32907,N 34.19248,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+H2O-FLO-1B,,W 107.64961,N 32.13383,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+20VCsz043a,,-147.313,63.1936,,,DZ,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+20VCsz043b,,-147.313,63.1936,,,DZ,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+20VCsz043c,,-147.313,63.1936,,,DZ,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+20VCsz044,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+20RAP,,63.427629 146.444657,63.427629 146.444657,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+01MET,,63.407981 145.95913,63.407981 145.95913,,,IG,zircon,,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+VER1 Argenta,,,,,,DZ,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+Ver1 lower Mt. Simon,,,,,,DZ,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+TRMC Argenta,,,,,,DZ,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+TRMC Mt. Simon,,,,,,DZ,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+WP16-3,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+JP-22,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+G-8,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+AE-389,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+PEG,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+JPQ,,,,,,IG,zircon,Lat/Long Unknown,,Mark Holland,LaserChron Archive,https://docs.google.com/document/d/1liJVaYDYuTNmfYzopGsEtW5R9BVoYivJBw_UDPrSk8M/edit
+PHM-04,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+CHM-03,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+7165,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+M2,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+ISH-1,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+7183,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+C.R. Hollin,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+FC2,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+7204,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+TMI,,,,,,DZ,zircon,Lat/Long Unknown,Yes,Brian Horton,LaserChron Archive,https://docs.google.com/document/d/1H7vM02MUn0uqlHZbsJuXtdFU5BSZs-iLYnl_KkPZqlA/edit
+,,,,,,,,,Yes,Ibanez,LaserChron Archive,https://drive.google.com/drive/folders/1sKjFUzrGMedMjYlhgFtMWLEoJ5fV2Sa6?usp=sharing
+HDS 497 2556’,,,,,,,,Lat/Long Unknown,,Peter Illig,LaserChron Archive,https://docs.google.com/document/d/1KKwd57SXrePv_ILQHzYwh9PTzAfWLU6VLeJoxpFJsaY/edit
+HDS 497 2492’,,,,,,,,Lat/Long Unknown,,Peter Illig,LaserChron Archive,https://docs.google.com/document/d/1KKwd57SXrePv_ILQHzYwh9PTzAfWLU6VLeJoxpFJsaY/edit
+HDS 497 3008’,,,,,,,,Lat/Long Unknown,,Peter Illig,LaserChron Archive,https://docs.google.com/document/d/1KKwd57SXrePv_ILQHzYwh9PTzAfWLU6VLeJoxpFJsaY/edit
+HDS 435 1173’-2274’,,,,,,,,Lat/Long Unknown,,Peter Illig,LaserChron Archive,https://docs.google.com/document/d/1KKwd57SXrePv_ILQHzYwh9PTzAfWLU6VLeJoxpFJsaY/edit
+Area A,,,,,,DZ,zircon,Lat/Long Unknown,,Scott Johnson,LaserChron Archive,https://docs.google.com/document/d/1GtdO7Tkhj20EcC17ZTOTZznU8fgaqob9zTux2iAq0Xg/edit
+Area B,,,,,,DZ,zircon,Lat/Long Unknown,,Scott Johnson,LaserChron Archive,https://docs.google.com/document/d/1GtdO7Tkhj20EcC17ZTOTZznU8fgaqob9zTux2iAq0Xg/edit
+NB08-04,,,,,,IG,zircon,Lat/Long Unknown,,Sean Kinney / Paul Olsen,LaserChron Archive,https://docs.google.com/document/d/1NzSpTarLrHI1B-BTsBHRzedbokKD_P0AR9_FhWE8fUI/edit
+NB08-06,,,,,,IG,zircon,Lat/Long Unknown,,Sean Kinney / Paul Olsen,LaserChron Archive,https://docs.google.com/document/d/1NzSpTarLrHI1B-BTsBHRzedbokKD_P0AR9_FhWE8fUI/edit
+NB08-07,,,,,,IG,zircon,Lat/Long Unknown,,Sean Kinney / Paul Olsen,LaserChron Archive,https://docs.google.com/document/d/1NzSpTarLrHI1B-BTsBHRzedbokKD_P0AR9_FhWE8fUI/edit
+NB08-12,,,,,,IG,zircon,Lat/Long Unknown,,Sean Kinney / Paul Olsen,LaserChron Archive,https://docs.google.com/document/d/1NzSpTarLrHI1B-BTsBHRzedbokKD_P0AR9_FhWE8fUI/edit
+09SAN02,,,,,,IG,zircon,Lat/Long Unknown,,Sean Kinney / Paul Olsen,LaserChron Archive,https://docs.google.com/document/d/1NzSpTarLrHI1B-BTsBHRzedbokKD_P0AR9_FhWE8fUI/edit
+04-05-07-02,,,,,,IG,zircon,Lat/Long Unknown,,Sean Kinney / Paul Olsen,LaserChron Archive,https://docs.google.com/document/d/1NzSpTarLrHI1B-BTsBHRzedbokKD_P0AR9_FhWE8fUI/edit
+KLK21-FJB8,,-110.377461,31.806769,Bolsa,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+KLK21-FJA250,,-110.400737,31.821435,Abrigo,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+KLK21-FJB25,,-110.37744,31.80644,Bolsa,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+KLK21-FJA266,,-110.401088,31.82124,Abrigo,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+KLK21-FJA155,,-110. 399935,31. 820462,Abrigo,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+KLK21-FJA67,,-110.39873,31.82003,Abrigo,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+KLK21-FJA0.8,,-110.396407,31.821639,Bolsa,Cambrian,DZ,zircon,,,Kirchner/Karlstrom,LaserChron Archive,https://docs.google.com/document/d/1EBfVhuXWWIzdawPnl6xx-tnzTOXQxqa7ZPgro6ncVC4/edit
+SC-1,,-107.038920°,34.297830°,Popotosa Formation,Miocene,DZ,zircon,,,Ryan Leary,LaserChron Archive,https://docs.google.com/document/d/1AmIffP5hXMl_a89GB33GBzqvstvICpdbjj4nS4YQ_vk/edit
+SC-2,,-107.045360°,34.292820°,Popotosa Formation,Miocene,DZ,zircon,,,Ryan Leary,LaserChron Archive,https://docs.google.com/document/d/1AmIffP5hXMl_a89GB33GBzqvstvICpdbjj4nS4YQ_vk/edit
+SC-3,,-107.053840°,34.318670°,Popotosa Formation,Miocene,DZ,zircon,,,Ryan Leary,LaserChron Archive,https://docs.google.com/document/d/1AmIffP5hXMl_a89GB33GBzqvstvICpdbjj4nS4YQ_vk/edit
+BC10PAMI03,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC93PAX10,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC93PAX14,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX102,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX103,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX104,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX106,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10QSX107,,-66.94,-19.24,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10QSX111,,-66.94,-19.24,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX112,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX127,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX130,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX132,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX135,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX136,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+BC10PAX137,,-67.05,-19.2,Arequipa-Antofalla basement terrane,Pliocene-Pleistocene,IG,,,,Liannie Velazquez/Claire McLeod,LaserChron Archive,https://docs.google.com/document/d/1DyFJzvQnAG97crG3n-ZktKi3lFrxbC1M6JDtY_KH4H0/edit
+,,,,,,,,,Yes,Link,LaserChron Archive,https://drive.google.com/drive/folders/1YpbEPzkHndjaKPn6rtm2pHfS6ERHR6Am?usp=sharing
+La Prieta hornblende diorite 03-15-2020,,,,,,IG,zircon,Lat/Long Unknown,,Tony Longo and Martin Clark Orla,LaserChron Archive,https://docs.google.com/document/d/14M4SAdRUkeoK8brGSJ50RmrVYoy3Xc6y8veY8TGQI8Y/edit
+FP10A-04,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+HEC2-08,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+OBO1-02,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+OBO1-04,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+AGB2-06,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+AGB2-05,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+FP10A-02,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+OPK-03-04,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+OBO1-06,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+AGB2-08,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+MAK31-05,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+HEC2-05,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+HEC2-07,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+BNR3-04,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+HEC2-04,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+BNR3-02,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+BNR3-06,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+GBK-02-01,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+GBK-02-02,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+GBK-02-03,,N/A,N/A,,,DZ,zircon,Lat/Long Unknown,,Peter Lovely,LaserChron Archive,https://docs.google.com/document/d/1MGAG93yaJIoC4XdI7FPoEW-D0BJi9sSEiPQbYxd0yEc/edit
+20JLS040,,-114.839509,37.084062,"Ts1
+(no formal name)",Early--middle Cenozoic,Sandstone/pebble conglomerate,zircon,,,Jens-Erik Lund Snee,LaserChron Archive,https://docs.google.com/document/d/14sN48gMIpTHmB44ZZN8WKIcgk04vMmrkXTPEdb7B-Dc/edit
+20JLS056,,-115.16507,37.258294,"TKs
+(no formal name)",Early--middle Cenozoic,Sandy diamictite,zircon,,,Jens-Erik Lund Snee,LaserChron Archive,https://docs.google.com/document/d/14sN48gMIpTHmB44ZZN8WKIcgk04vMmrkXTPEdb7B-Dc/edit
+20JLS053,,-115.165547,37.25937,"TKs
+(no formal name)",Early--middle Cenozoic,Pebbly sandstone,zircon,,,Jens-Erik Lund Snee,LaserChron Archive,https://docs.google.com/document/d/14sN48gMIpTHmB44ZZN8WKIcgk04vMmrkXTPEdb7B-Dc/edit
+20JLS032,,-114.607962,37.737159,"Tc
+(no formal name)",Early--middle Cenozoic,Sandstone/pebble conglomerate,zircon,,,Jens-Erik Lund Snee,LaserChron Archive,https://docs.google.com/document/d/14sN48gMIpTHmB44ZZN8WKIcgk04vMmrkXTPEdb7B-Dc/edit
+20JLS063,,-115.810298,37.548627,"Ts1/TKs 
+(no formal name)",Early--middle Cenozoic,Sandstone and pebble conglomerate,zircon,,,Jens-Erik Lund Snee,LaserChron Archive,https://docs.google.com/document/d/14sN48gMIpTHmB44ZZN8WKIcgk04vMmrkXTPEdb7B-Dc/edit
+,,,,,,,,,,Lupulescu Chiarenzelli,LaserChron Archive,https://drive.google.com/drive/folders/1jj4-6MDn4NNzi0R_zFMrc0kwEF3W76VF?usp=sharing
+,,,,,,,,,,Mahoney,LaserChron Archive,https://drive.google.com/drive/u/1/folders/1pKM4QJSEcfj1qsnf3Jagjd7_uIYiafIZ
+,,,,,,,,Data on this document for Mahoney?,,,,https://drive.google.com/drive/u/1/folders/1zwt378aisAS3ltYCMXL0lj6DaN_Z7B48
+,,,,,,,,,Yes,Mallery Licht Thomson,LaserChron Archive,https://docs.google.com/document/d/1I2mekxi_tIKylc0C9FhB1-MO74e93VFZNBq7jUOvhLw/edit
+,,,,,,,,,Yes,Mallik,LaserChron Archive,https://drive.google.com/drive/folders/18K_0uh6Ty43nynPF-ks26CD7wkGqcrl1?usp=sharing
+20BH1,,-107.910185°,44.860243°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH2,,-107.889270°,44.851373°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH3,,-107.309173°,44.608458°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH4,,-107.366067°,44.629848°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH5,,-107.436493°,44.664457°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH6,,-107.435402°,44.710976°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH7,,-107.411272°,44.723478°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH8,,-107.366137°,44.802118°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH9,,-107.395410°,44.755649°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH10,,-107.366137°,44.802118°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH12,,-107.078408°,44.150885°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH13,,-107.121829°,44.131430°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH17,,-106.917548°,44.158576°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH18,,-107.035144°,44.278620°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH19,,-106.949429°,44.292609°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH20,,-106.948110°,44.552955°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH21,,-107.457977°,44.655471°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH22,,-107.457977°,44.655471°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH23,,-107.497630°,44.737647°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH24,,-107.502683°,44.645636°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+20BH25,,-107.382009°,44.742743°,,Archean,IG,zircon,,,Dave Malone,LaserChron Archive,https://docs.google.com/document/d/1ZdQQP29xnfClSeAP-YWleg9K-fugk29tzGZ1qCfhyuA/edit
+19WYTC02,,-109.5783031,43.4254096,Middle Mountain granite,Archean,IG,zircon,,,Shawn Malone,LaserChron Archive,https://docs.google.com/document/d/1MkLyF-VxYRt1IR4y6qYDPuLhR04CIrVzweZswxGwk6g/edit
+19WYTC04,,-109.5792291,43.4226902,Undiff. Precambrian basement,Archean,IG,zircon,,,Shawn Malone,LaserChron Archive,https://docs.google.com/document/d/1MkLyF-VxYRt1IR4y6qYDPuLhR04CIrVzweZswxGwk6g/edit
+19WYTC07,,-109.5796578,43.4206403,Undiff. Precambrian basement,Archean (?),IG,zircon,,,Shawn Malone,LaserChron Archive,https://docs.google.com/document/d/1MkLyF-VxYRt1IR4y6qYDPuLhR04CIrVzweZswxGwk6g/edit
+,,,,,,,,,,Martin Cardiology,LaserChron Archive,https://drive.google.com/drive/folders/1hWoUx4BsQjcpupLTdsFv-QvUNoCGW377?usp=sharing
+NWBno,,-77.01083,39.04799,Northwest Branch,Cambrian,DZ,zircon,,,"Martin, Aaron and Cosio, Claudia",LaserChron Archive,https://docs.google.com/document/d/1dXEjD_zu1CCnQcVPEhfuDm3-32ptLKdwwXjhzr5CFzg/edit
+NWB12h,,-77.01083,39.04799,Northwest Branch,Cambrian,DZ,zircon,,,"Martin, Aaron and Cosio, Claudia",LaserChron Archive,https://docs.google.com/document/d/1dXEjD_zu1CCnQcVPEhfuDm3-32ptLKdwwXjhzr5CFzg/edit
+NWB24h,,-77.01083,39.04799,Northwest Branch,Cambrian,DZ,zircon,,,"Martin, Aaron and Cosio, Claudia",LaserChron Archive,https://docs.google.com/document/d/1dXEjD_zu1CCnQcVPEhfuDm3-32ptLKdwwXjhzr5CFzg/edit
+D119,,-114.063056,36.648,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D67,,-114.057503,36.650156,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D120,,-114.061772,36.647467,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D105,,-114.012311,36.672181,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D113,,-114.010733,36.670714,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D57,,-114.061836,36.652006,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D118,,-114.120519,36.644536,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D102A,,-114.006275,36.684356,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D78,,-114.009089,36.677858,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D113 2nd Pack,,-114.010733,36.670714,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+D67 zircon 2nd round,,-114.057503,36.650156,Virgin Mountainmetamorphic suite,Paleoproterozoic Era,IG,zircon,,,Dalton McCaffrey,LaserChron Archive,https://docs.google.com/document/d/1mnRC92ByWtJkgsHAxtGhQrE6xq9nNkeAmc5hCXrC1Ys/edit
+,,,,,,,,,Yes,McClelland,LaserChron Archive,https://docs.google.com/document/d/1b73aWveJUow7rPbmaK6VvKUl9ovucGDb8tJr1EfbXNw/edit
+,,,,,,,,,Yes,McClelland,LaserChron Archive,https://docs.google.com/document/d/18evZgT3sKp__ob3cME-YL-2vhH9DaQ1u0bkPgfBmpI8/edit
+ML<850um,,-119.4952778,37.84583333,"May Lake pendant dike, amphibolite, central Sierra Nevada batholith, Yosemite",Jurassic,IG,zircon,,,Vali Memeti,LaserChron Archive,https://docs.google.com/document/d/1N3sdsuZvImTqzoJ2zvBy5ZrFOXr55cC1aSCI7gJ40Fg/edit
+"8.18.14.1 KM
+Name is 8.8.14.1KM",,98.81539,25.20509,Gaoligongshan Group,Lower Paleozoic,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.11.14.3 KM,,98.83768,24.7799,Shahe Formation,Upper Cambrian,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.12.14.2 KM,,99.29024,24.58798,Mantang Formation,Lower Ordovician,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.12.14.3 KM,,99.32789,24.57692,Shabajiao Formation,Lower Devonian,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.12.14.4 KM,,99.35822,24.5769,Nanshuba Formation,Upper Triassic,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.13.14.7 KM,,99.25298,24.46004,Gongyanghe Formation,Middle-Lower Cambrian,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.13.14.8 KM,,99.25451,24.46137,Gongyanghe Formation,Middle-Lower Cambrian,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.15.14.3 KM,,99.89994,26.03001,,,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.15.14.5 KM,,99.89078,26.00923,,,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.15.14.7 KM,,99.85103,26.00334,,,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.18.14.1 KM,,100.26836,26.67574,Songgui Formation,Upper Triassic,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.18.14.2 KM,,100.2998,26.26165,,Eocene,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+8.19.14.3 KM,,100.37701,26.86564,Songgui Formation,Upper Triassic,DZ,zircon,,,Kathryn Metcalf,LaserChron Archive,https://docs.google.com/document/d/1wLWmEBVz3zEkkmXcYFy_2_WAhZiuG-DUbbogccLrTa0/edit
+JPC12 91-93.5 cm,,-124.68,41.47,,Holocene (~11 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC12 372-379 cm,,-124.68,41.47,,Pleistocene (>14 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC13 359-364 cm,,-124.89,41.57,,Pleistocene (~23 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC21 343-353 cm,,-124.26,41.37,,Holocene (~9.6 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC30 150-160 cm,,-124.25,41.04,,Holocene (<2.5 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC33 208-218 cm,,-124.48,40.96,,Holocene (~10 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC33 502-512 cm,,-124.48,40.96,,Pleistocene (>16 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+JPC37 239-245 cm,,-124.54,40.99,,Pleistocene (~13 Ka),DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+SM18-ER-01,,-124.2,40.61,,Modern,DZ,zircon,,,Nora Nieminski,LaserChron Archive,https://docs.google.com/document/d/1emd--Zh7MxB2HWwqzA-nt0L3nRd2Rwu9glawCFdPsfM/edit
+,,,,,,,,,Yes,Nu Instruments,LaserChron Archive,https://drive.google.com/drive/folders/1IdOB48P5lM4gZMKWFqr-eZ4MzrclRRWq?usp=sharing
+21CR05,,-113.43216,46.03973,Dike in Ꞓ Hasmark Formation,Cretaceous-Paleogene,IG,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+MM19 LHu-2,,-111.3337,45.89498,LaHood Conglomerate,Mesoproterozoic,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+MM19 LHsc-3,,-111.856,45.84423,LaHood Conglomerate,Mesoproterozoic,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+MM19 LHaf-4,,-112.00466,45.79541,LaHood Conglomerate,Mesoproterozoic,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+MM19 LHmf-5,,-111.91705,45.84492,LaHood Conglomerate,Mesoproterozoic,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+MM19 LHof-7,,-111.89915,45.88043,LaHood Conglomerate,Mesoproterozoic,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+"TR-MOR (labelled Thunder Ridge on packet, but use TR-MOR going forward)",,-109.3932724,47.0411618,Morrison or Kootenai (?),Jurassic or Cretaceous,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+"BF-MOR (labelled Bear Paw Ash on packet, but use BR-MOR going forward)",,"Malta, MT","Malta, MT",Bearpaw Formation,Cretaceous,DZ,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+CR-20-HL-26,,-112.6374,45.67739,"Wyoming craton, Paragneiss",Archean,IG,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+CR-GP-0819-01,,-109.807467,45.163434,Wyoming craton,Archean,IG,zircon,,,Orme/Baird/Neal,LaserChron Archive,https://docs.google.com/document/d/1xnnox9yteIQoJ5i9tUmc8Le-a8SOpj-wolettfqM5K0/edit
+PRR-15175,,-125.033,-86.294,Granite Harbour Intrusives,Neoproterozoic-Cambrian,IG,zircon,,,Tim Paulsen,LaserChron Archive,https://docs.google.com/document/d/12kq1shyVAGetnCqGgHihFDTfB9fwO8zpibS-0OaaW7c/edit
+20CP14,,,,Idaho batholith pluton,Cretaceous,IG,zircon,Long/Lat Unknown,,Dave Pearson,LaserChron Archive,https://docs.google.com/document/d/1Wns2L0qfKPHtziw_Rtb3zeyFxf6cyY5FLg9BOkQ66YA/edit
+20CP16,,,,Idaho batholith pluton,Cretaceous,IG,zircon,Long/Lat Unknown,,Dave Pearson,LaserChron Archive,https://docs.google.com/document/d/1Wns2L0qfKPHtziw_Rtb3zeyFxf6cyY5FLg9BOkQ66YA/edit
+20CP14,,,,,Cretaceous,IG,zircon,Long/Lat Unknown,,Dave Pearson,LaserChron Archive,https://docs.google.com/document/d/1Wns2L0qfKPHtziw_Rtb3zeyFxf6cyY5FLg9BOkQ66YA/edit
+20CP16,,,,,Cretaceous,IG,zircon,Long/Lat Unknown,,Dave Pearson,LaserChron Archive,https://docs.google.com/document/d/1Wns2L0qfKPHtziw_Rtb3zeyFxf6cyY5FLg9BOkQ66YA/edit
+,,,,,,,,,Yes,Pecha,LaserChron Archive,https://drive.google.com/drive/folders/18TReODkGfto74tuU0TiRzB7wBJuORspk?usp=sharing
+14AD19,,-74.0499,43.9709,Meta-anorthosite (Marcy massif),Mesoproterozoic,IG,zircon,,,William Peck,LaserChron Archive,https://docs.google.com/document/d/1-zU2X2_xpT7fYzl8xTDRehj94NCSSqszVmjuklHZbBI/edit
+14AD20B,,-74.05,43.9707,Meta-anorthosite (Marcy massif),Mesoproterozoic,IG,zircon,,,William Peck,LaserChron Archive,https://docs.google.com/document/d/1-zU2X2_xpT7fYzl8xTDRehj94NCSSqszVmjuklHZbBI/edit
+17AD6,,-74.0504,43.9701,Meta-anorthosite (Marcy massif),Mesoproterozoic,IG,zircon,,,William Peck,LaserChron Archive,https://docs.google.com/document/d/1-zU2X2_xpT7fYzl8xTDRehj94NCSSqszVmjuklHZbBI/edit
+,,,,,,,,,Yes,Kojo Plange,LaserChron Archive,https://drive.google.com/drive/folders/15CmN3OVjviKzqcKifhrECT7Uun5lD2j4?usp=sharing
+LT-SO,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L1,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-S1,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L5,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L9,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L11,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L15-1,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L15-2,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+LT-L33,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+BP01023,,101.2595,39.92773,,,,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+BD01030,,101.3072,40.01241,,,,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+BP02017,,101.1063,40.38648,,,,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+BP04021,,101.9613,41.54174,,,,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+TD18-2,,,,,,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1DguM4TpCO3naTBlTDALtFTjV6UQ4XcRiSmPaaujfURg/edit
+19AR111,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR106,,-65.766552°,-26.944013°, Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR108,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR109,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR110,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR107,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR112,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+19AR113,,-65.766552°,-26.944013°,Las Carreras,Quaternary,DZ,zircon,,,Alex Pullen,LaserChron Archive,https://docs.google.com/document/d/1aJ3oaDNJvAV9inFjCtXPwx8vqv3_ZWa7W3PR1K-Qi-U/edit
+05MET,,,,,,IG,zircon,Long/Lat Unknown,,Sean Regan/Trevor Waldien,LaserChron Archive,https://docs.google.com/document/d/1JVC1dvlC3lqg4ql0KHLrrI3oxfITD2UbfgKmgrRRodg/edit
+,,,,,,,,,Yes,Reiners Group,LaserChron Archive,https://drive.google.com/drive/folders/1QLvccgxgrqq4VwEorVC3fiuaRJkjje-W?usp=sharing
+0121-02-08,,-113.121142,33.26248,Equigranular granodiorite,Cretaceous to Proterozoic,IG,zircon,,,Carson Richardson,LaserChron Archive,https://docs.google.com/document/d/1mljJ4sb73zqMos1Kddk2PAQDFsZ_AuKGt_I10bpXyOQ/edit
+1-21-02-09,,-113.44205,33.33427,Fine-grained granitoid,Miocene to Proterozoic,IG,zircon,,,Carson Richardson,LaserChron Archive,https://docs.google.com/document/d/1mljJ4sb73zqMos1Kddk2PAQDFsZ_AuKGt_I10bpXyOQ/edit
+3-21-02-09,,-113.44653,33.334,Leucocratic granite,Jurassic to Proterozoic,IG,zircon,,,Carson Richardson,LaserChron Archive,https://docs.google.com/document/d/1mljJ4sb73zqMos1Kddk2PAQDFsZ_AuKGt_I10bpXyOQ/edit
+"450-3
+vial19-18",,72.022,33.85,Hisartang,Proterozoic,DZ,zircon,,,Joel Schiffer / Delores Robinson,LaserChron Archive,https://docs.google.com/document/d/1txPh7iSZvkX-4LQpjJJMFFfCuxQwwD9VzbnEYL5J66Y/edit
+"450-4
+vial19-19",,71.975,33.89,Dakhner,Proterozoic,DZ,zircon,,,Joel Schiffer / Delores Robinson,LaserChron Archive,https://docs.google.com/document/d/1txPh7iSZvkX-4LQpjJJMFFfCuxQwwD9VzbnEYL5J66Y/edit
+"450-5
+vial19-23",,73.223,34.29,Tanawal,Proterozoic,DZ,zircon,,,Joel Schiffer / Delores Robinson,LaserChron Archive,https://docs.google.com/document/d/1txPh7iSZvkX-4LQpjJJMFFfCuxQwwD9VzbnEYL5J66Y/edit
+"450-11
+vial19-54",,72.721,34.87,Gandaf,Proterozoic,DZ,zircon,,,Joel Schiffer / Delores Robinson,LaserChron Archive,https://docs.google.com/document/d/1txPh7iSZvkX-4LQpjJJMFFfCuxQwwD9VzbnEYL5J66Y/edit
+"450-15
+vial19-85",,73.367,34.08,Hazara,Proterozoic,DZ,zircon,,,Joel Schiffer / Delores Robinson,LaserChron Archive,https://docs.google.com/document/d/1txPh7iSZvkX-4LQpjJJMFFfCuxQwwD9VzbnEYL5J66Y/edit
+,,,,,,,,,Yes,Schwaderer/Carroll,LaserChron Archive,https://docs.google.com/document/d/10FCPt1wYWBDDy_t3LiiXqdBX2nppxpwQSjzUguN9qWQ/edit
+20TS04,,-104.9505,36.5764,Vermejo Fm,Cretaceous,DZ,zircon,,,Theresa M. Schwartz,LaserChron Archive,https://docs.google.com/document/d/1PY35a3wEvckNAHoaWKr5780QByYgYG46wTFxJCs8HI0/edit
+20TS14,,-105.0295,36.546,Trinidad Ss,Cretaceous,DZ,zircon,,,Theresa M. Schwartz,LaserChron Archive,https://docs.google.com/document/d/1PY35a3wEvckNAHoaWKr5780QByYgYG46wTFxJCs8HI0/edit
+20TS15,,-105.0289,36.5465,Poison Canyon Fm,Paleogene,DZ,zircon,,,Theresa M. Schwartz,LaserChron Archive,https://docs.google.com/document/d/1PY35a3wEvckNAHoaWKr5780QByYgYG46wTFxJCs8HI0/edit
+20TS16,,-105.0276,36.548,Poison Canyon Fm,Paleogene,DZ,zircon,,,Theresa M. Schwartz,LaserChron Archive,https://docs.google.com/document/d/1PY35a3wEvckNAHoaWKr5780QByYgYG46wTFxJCs8HI0/edit
+SRDC-1,,-104.979722,39.218333,"Tavakaiv
+Sandstone",,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+PRR5319,,177.5833,-84.7,CTAM Goldie Fm,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+PRR23393,,177.919,-84.537,CTAM Goldie Fm,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+PRR23287,,-175.473,-84.834,CTAM Taylor Fm,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+PRR15771,,169.3611,-84.344722,"CTAM
+Goldie Fm",,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+AX54,,-145.82811,-77.20817,Calcsilicate gneiss,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+21216-3,,-146.11969,-77.62562,Swanson Fm?,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+21228-8,,-153.88824,-77.583,Calcsilicate gneiss,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+SC-F3,,-144.49653,-76.53389,Fosdick Mts Till,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+5D9-2,,-144.72263,-76.565,"Quartzite Erratic
+Swanson Fm?",,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+GV-DP4,,-153.96845,-77.85575,Phyllite,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+1536E 18R 1W,,-41.0606533,-59.4408267,IODP 382 Quartzite Cobble,,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
+33B 26R 1W,,-109.0500167,-68.7336133,"IODP 379
+Debris Flow",,DZ,zircon,,,Siddoway Ici-Hot Workshop,LaserChron Archive,https://docs.google.com/document/d/1PaZIE1TSSD9OHwx_8MsE-7jzMXwELGdxRsXcSOfL1n8/edit
