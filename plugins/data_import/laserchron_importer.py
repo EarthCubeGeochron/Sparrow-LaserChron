@@ -11,19 +11,26 @@ import re
 from .normalize_data import normalize_data
 from .sample_names import generalize_samples
 
+
 def __extract_datetime(possible_date_string):
     dates = find_dates(possible_date_string, source=True, base_date=datetime.min)
     for date, source_text in dates:
         if len(source_text) < 5:
             continue
-        echo("Extracted date "
-             + style(str(date), fg='green')
-             + " from " + style(source_text, fg='green'))
+        echo(
+            "Extracted date "
+            + style(str(date), fg="green")
+            + " from "
+            + style(source_text, fg="green")
+        )
         return date
 
     return None
 
+
 range_regex = re.compile(r"(\d+)-(\d+)\s")
+
+
 def extract_datetime(st):
     for pathseg in st.split("/")[::-1]:
         without_ranges = range_regex.sub(r"\2 ", pathseg)
@@ -34,9 +41,10 @@ def extract_datetime(st):
             return dt
     return None
 
+
 def decode_datatable(csv_data):
     """Extract a CSV data table from its binary representation
-       in the PostgreSQL database."""
+    in the PostgreSQL database."""
     tbl = csv_data
     if tbl is None:
         return
@@ -44,7 +52,7 @@ def decode_datatable(csv_data):
     f.write(tbl.decode())
     f.seek(0)
     df = read_csv(f)
-    df = df.iloc[:,1:]
+    df = df.iloc[:, 1:]
     return normalize_data(df)
 
 
@@ -52,25 +60,30 @@ def infer_project_name(fp):
     folders = fp.split("/")[:-1]
     return max(folders, key=len)
 
+
 def nan_to_none(val):
     if isnull(val):
         return None
     return val
 
+
 def _sample_dataframe(df, sample_name):
-    names = df.index.get_level_values('sample_name')
+    names = df.index.get_level_values("sample_name")
     ix = names == sample_name
     if isnull(sample_name):
         # Special case for null sample name (row only has information about spots)
         ix = names.isnull()
     return df.loc[ix]
 
+
 class LaserchronImporter(BaseImporter):
     """
     A Sparrow importer for cleaned ETAgeCalc and NUPM AgeCalc files stored
     in the cloud.
     """
+
     authority = "ALC"
+    id = "laserchron-data"
     trust_file_times = False
 
     def import_all(self, redo=False):
@@ -79,9 +92,37 @@ class LaserchronImporter(BaseImporter):
         self.iter_records(q, redo=redo)
 
     def import_one(self, basename):
-        q = (self.db.session.query(self.db.model.data_file)
-                .filter_by(basename=basename))
+        q = self.db.session.query(self.db.model.data_file).filter_by(basename=basename)
         self.iter_records(q, redo=True)
+
+    def run_task(
+        self,
+        basename=None,
+        stop_on_error=False,
+        download=False,
+        normalize=True,
+        redo=True,
+        verbose=False,
+    ):
+        """
+        Import LaserChron files
+        """
+        db = self.app.database
+
+        self.stop_on_error = stop_on_error
+        self.redo = redo
+
+        if normalize and not basename:
+            if download:
+                iterator = self.process_objects(only_untracked=False)
+            else:
+                # Just use files that are already tracked in the data files object
+                iterator = db.session.query(db.model.data_file)
+            self.iter_records(iterator, redo=redo)
+        elif basename:
+            self.import_one(basename)
+        else:
+            list(self.process_objects(only_untracked=True, verbose=True))
 
     def import_datafile(self, fn, rec, redo=False):
         """
@@ -95,7 +136,7 @@ class LaserchronImporter(BaseImporter):
         try:
             data, meta = decode_datatable(rec.csv_data)
             self.meta = meta
-            data.index.name = 'analysis'
+            data.index.name = "analysis"
         except IndexError as err:
             raise SparrowImportError(err)
 
@@ -104,7 +145,7 @@ class LaserchronImporter(BaseImporter):
         sample_names = list(data.index.unique(level=0))
 
         if self.verbose:
-            echo("Samples: "+", ".join(sample_names))
+            echo("Samples: " + ", ".join(sample_names))
 
         for sample_name in sample_names:
             df = _sample_dataframe(data, sample_name)
@@ -130,7 +171,7 @@ class LaserchronImporter(BaseImporter):
             # Dates are required, but we might change this
             date = datetime.min
 
-        sample_name = nan_to_none(df.index.unique(level='sample_name')[0])
+        sample_name = nan_to_none(df.index.unique(level="sample_name")[0])
         sample_id = None
         if sample_name is not None:
             sample = self.sample(name=sample_name)
@@ -141,9 +182,11 @@ class LaserchronImporter(BaseImporter):
 
         # See if a matching session exists, otherwise create.
         # Not sure if this will work right now
-        session = (self.db.session.query(self.m.session)
-                    .filter(self.m.data_file == rec)
-                    .first())
+        session = (
+            self.db.session.query(self.m.session)
+            .filter(self.m.data_file == rec)
+            .first()
+        )
 
         if session is not None:
             self.warn(f"Existing session {session.id} found")
@@ -157,9 +200,8 @@ class LaserchronImporter(BaseImporter):
             session.sample_id = sample_id
         else:
             session = self.db.get_or_create(
-                self.m.session,
-                project_id=project.id,
-                sample_id=sample_id)
+                self.m.session, project_id=project.id, sample_id=sample_id
+            )
 
         # We always override the date with our estimated value
         session.date = date
@@ -167,7 +209,7 @@ class LaserchronImporter(BaseImporter):
         self.db.session.add(session)
         self.db.session.flush()
 
-        dup = df['analysis'].duplicated(keep='first')
+        dup = df["analysis"].duplicated(keep="first")
         if dup.astype(bool).sum() > 0:
             print(dup)
             self.warn(f"Duplicate analyses found for sample {sample_name}")
@@ -189,9 +231,8 @@ class LaserchronImporter(BaseImporter):
             ix = None
 
         analysis = self.add_analysis(
-            session,
-            session_index=ix,
-            analysis_name=str(row.name[1]))
+            session, session_index=ix, analysis_name=str(row.name[1])
+        )
 
         for i in row.iteritems():
             try:
@@ -209,11 +250,11 @@ class LaserchronImporter(BaseImporter):
         """
         Each value in a table row -> datum
         """
-        if key == 'analysis':
+        if key == "analysis":
             return None
         if key.endswith("_error"):
             return None
-        if key == 'best_age':
+        if key == "best_age":
             # We test for best ages separately, since they
             # must be one of the other ages
             return None
@@ -228,29 +269,33 @@ class LaserchronImporter(BaseImporter):
         m = self.meta[key]
         parameter = m.name
 
-        unit = self.unit(m.at['Unit']).id
+        unit = self.unit(m.at["Unit"]).id
 
         err = None
         err_unit = None
         try:
-            err_ix = key+"_error"
+            err_ix = key + "_error"
             err = row.at[err_ix]
-            i = self.meta[err_ix].at['Unit']
+            i = self.meta[err_ix].at["Unit"]
             err_unit = self.unit(i).id
         except KeyError:
             pass
 
         is_age = key.startswith("age_")
 
-        datum = self.datum(analysis, parameter, value,
+        datum = self.datum(
+            analysis,
+            parameter,
+            value,
             unit=unit,
             error=err,
             error_unit=err_unit,
             error_metric="2s",
-            is_interpreted=is_age)
+            is_interpreted=is_age,
+        )
 
         if is_age:
             # Test if it is a "best age"
-            best_age = float(row.at['best_age'])
+            best_age = float(row.at["best_age"])
             datum.is_accepted = N.allclose(value, best_age)
         return datum

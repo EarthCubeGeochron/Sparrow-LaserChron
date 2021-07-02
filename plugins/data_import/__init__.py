@@ -10,6 +10,7 @@ from .laserchron_importer import LaserchronImporter
 from .sample_names import list_sample_names
 from .cli import import_laserchron, list_samples
 
+
 class LaserChronDataPlugin(SparrowPlugin):
 
     name = "laserchron-data"
@@ -24,7 +25,7 @@ class LaserChronDataPlugin(SparrowPlugin):
         inst = self.cloud._instance_for_meta(meta)
         if inst is None or self.redo:
             try:
-                body = self.cloud.get_body(meta['Key'])
+                body = self.cloud.get_body(meta["Key"])
                 # Extract s3 object to a CSV file
                 inst, extracted = extract_s3_object(db, meta, body, redo=self.redo)
                 db.session.commit()
@@ -39,8 +40,15 @@ class LaserChronDataPlugin(SparrowPlugin):
         for obj in self.cloud.iterate_objects(only_untracked=only_untracked):
             yield self.import_object(obj)
 
-    def import_data(self, basename=None, stop_on_error=False,
-            download=False, normalize=True, redo=False, verbose=False):
+    def import_data(
+        self,
+        basename=None,
+        stop_on_error=False,
+        download=False,
+        normalize=True,
+        redo=False,
+        verbose=False,
+    ):
         """
         Import LaserChron files
         """
@@ -49,7 +57,9 @@ class LaserChronDataPlugin(SparrowPlugin):
         self.stop_on_error = stop_on_error
         self.redo = redo
 
-        importer = LaserchronImporter(db, verbose=verbose)
+        importer = LaserchronImporter(self.app, verbose=verbose)
+        secho("Starting import")
+
         if normalize and not basename:
             if download:
                 iterator = self.process_objects(only_untracked=False)
@@ -64,7 +74,7 @@ class LaserChronDataPlugin(SparrowPlugin):
 
     def list_samples(self, verbose=False):
         db = self.app.database
-        importer = LaserchronImporter(db)
+        importer = LaserchronImporter(self.app)
         data_file = db.model.data_file
         iterator = db.session.query(data_file).filter(data_file.csv_data != None)
         list_sample_names(iterator, verbose=verbose)
@@ -72,3 +82,7 @@ class LaserChronDataPlugin(SparrowPlugin):
     def on_setup_cli(self, cli):
         cli.add_command(import_laserchron)
         cli.add_command(list_samples)
+
+    def on_register_tasks(self, plugin):
+        importer = LaserchronImporter(self.app)
+        plugin.register_task(importer.id, importer)
