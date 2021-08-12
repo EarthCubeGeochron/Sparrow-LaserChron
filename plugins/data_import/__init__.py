@@ -83,6 +83,6 @@ class LaserChronDataPlugin(SparrowPlugin):
         cli.add_command(import_laserchron)
         cli.add_command(list_samples)
 
-    def on_register_tasks(self, plugin):
+    def on_register_tasks(self, mgr):
         importer = LaserchronImporter(self.app)
-        plugin.register_task(importer.id, importer)
+        mgr.register_task(importer.id, importer)
