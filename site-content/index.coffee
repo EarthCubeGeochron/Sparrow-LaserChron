@@ -15,5 +15,5 @@ export default {
     id: "detrital-zircon"
     component: DetritalZirconComponent
   }],
-  sessionCardContent: ({data})->h(DZSessionData, data)
+  sessionCardContent: ({data})-> h(DZSessionData, data)
 }

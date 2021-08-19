@@ -1,3 +1,4 @@
+import sparrow
 from sparrow.import_helpers import SparrowImportError, BaseImporter
 from datetime import datetime
 from io import StringIO
@@ -299,3 +300,28 @@ class LaserchronImporter(BaseImporter):
             best_age = float(row.at["best_age"])
             datum.is_accepted = N.allclose(value, best_age)
         return datum
+
+
+@sparrow.task(name="import-laserchron")
+def import_laserchron(
+    basename: str = None,
+    stop_on_error: bool = False,
+    verbose: bool = False,
+    download: bool = False,
+    normalize: bool = True,
+    redo: bool = False,
+):
+    """
+    Import LaserChron files
+    """
+    echo("Starting import task")
+    plugin = sparrow.get_plugin("laserchron-data")
+    print(plugin)
+    plugin.import_data(
+        basename,
+        stop_on_error=stop_on_error,
+        verbose=verbose,
+        download=download,
+        normalize=normalize,
+        redo=redo,
+    )
