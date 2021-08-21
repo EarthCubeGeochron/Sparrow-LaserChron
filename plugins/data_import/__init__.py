@@ -53,6 +53,7 @@ class LaserChronDataPlugin(SparrowPlugin):
         Import LaserChron files
         """
         db = self.app.database
+        db.session.rollback()
 
         self.stop_on_error = stop_on_error
         self.redo = redo

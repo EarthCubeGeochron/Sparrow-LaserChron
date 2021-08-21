@@ -5,9 +5,10 @@ from io import StringIO
 from pandas import read_csv, isnull
 import numpy as N
 from sqlalchemy.exc import IntegrityError, ProgrammingError, DataError
-from click import echo, style
+from click import echo, style, secho
 from datefinder import find_dates
 import re
+from time import sleep
 
 from .normalize_data import normalize_data
 from .sample_names import generalize_samples
@@ -109,6 +110,7 @@ class LaserchronImporter(BaseImporter):
         Import LaserChron files
         """
         db = self.app.database
+        db.session.rollback()
 
         self.stop_on_error = stop_on_error
         self.redo = redo
@@ -317,6 +319,7 @@ def import_laserchron(
     echo("Starting import task")
     plugin = sparrow.get_plugin("laserchron-data")
     print(plugin)
+    secho("Test", fg="red")
     plugin.import_data(
         basename,
         stop_on_error=stop_on_error,
