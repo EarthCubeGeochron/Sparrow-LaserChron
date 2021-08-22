@@ -3,12 +3,35 @@ from sparrow.plugins import SparrowPlugin
 from sparrow.ext import CloudDataPlugin
 from sparrow.import_helpers import SparrowImportError
 from sparrow.cli.util import with_app, with_database
+from starlette.exceptions import HTTPException
+from starlette.responses import Response
 from textwrap import wrap
+import sparrow
 
 from .extract_datatable import extract_s3_object
-from .laserchron_importer import LaserchronImporter
+from .laserchron_importer import LaserchronImporter, decode_datatable
 from .sample_names import list_sample_names
 from .cli import import_laserchron, list_samples
+
+
+def data_file_csv(request):
+    """A route to get CSV data for this specific data file"""
+    # Need to lock this method down with authentication...
+    uuid = request.path_params["uuid"]
+
+    db = sparrow.get_database()
+    DataFile = db.model.data_file
+
+    datafile = db.session.query(DataFile).get(uuid)
+    if datafile is None:
+        raise HTTPException(404, f"Data file with UUID {uuid} not found")
+    if datafile.csv_data is None:
+        raise HTTPException(
+            404, f"Data file {uuid} does not have an extracted CSV table"
+        )
+
+    df = decode_datatable(datafile.csv_data)[0].sort_index().reset_index()
+    return Response(df.to_json(orient="records"), media_type="application/json")
 
 
 class LaserChronDataPlugin(SparrowPlugin):
@@ -87,3 +110,10 @@ class LaserChronDataPlugin(SparrowPlugin):
     def on_register_tasks(self, mgr):
         importer = LaserchronImporter(self.app)
         mgr.register_task(importer.id, importer)
+
+    def on_api_initialized_v2(self, api):
+        api.add_route(
+            "/data_file/{uuid}/csv_data",
+            data_file_csv,
+            help="CSV data for a detrital zircon data table",
+        )
