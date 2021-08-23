@@ -1,0 +1,30 @@
+.data-sheet-card
+  margin-bottom 1em
+  tr
+    td:first-child
+      position: sticky;
+      left: 0;
+      width 3em
+      border-top-width: 1px;
+      /*only relevant for first row*/
+      margin-top: -1px;
+      /*compensate for top border*/
+    td:nth-child(2)
+      width: 8em
+  thead
+    position sticky
+    top 0
+    z-index 100
+    border-bottom 1px solid #ddd
+  table
+    width 1200px
+
+
+.data-sheet-container
+  position relative
+  overflow scroll
+  margin -10px
+  max-height 400px
+  margin-top -10px !important
+  scroll-padding 20px 0 0 3em
+  overscroll-behavior: none
