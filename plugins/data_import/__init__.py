@@ -11,7 +11,7 @@ import sparrow
 from .extract_datatable import extract_s3_object
 from .laserchron_importer import LaserchronImporter, decode_datatable
 from .sample_names import list_sample_names
-from .cli import import_laserchron, list_samples
+from .cli import import_laserchron
 
 
 def data_file_csv(request):
@@ -58,7 +58,8 @@ class LaserChronDataPlugin(SparrowPlugin):
                 db.session.rollback()
         return inst
 
-    def process_objects(self, only_untracked=True, verbose=False):
+    def process_objects(self, only_untracked=True):
+        """Download all cloud data objects."""
         self.cloud = self.app.plugins.get("cloud-data")
         for obj in self.cloud.iterate_objects(only_untracked=only_untracked):
             yield self.import_object(obj)
@@ -96,20 +97,8 @@ class LaserChronDataPlugin(SparrowPlugin):
         else:
             list(self.process_objects(only_untracked=True, verbose=True))
 
-    def list_samples(self, verbose=False):
-        db = self.app.database
-        importer = LaserchronImporter(self.app)
-        data_file = db.model.data_file
-        iterator = db.session.query(data_file).filter(data_file.csv_data != None)
-        list_sample_names(iterator, verbose=verbose)
-
     def on_setup_cli(self, cli):
         cli.add_command(import_laserchron)
-        cli.add_command(list_samples)
-
-    def on_register_tasks(self, mgr):
-        importer = LaserchronImporter(self.app)
-        mgr.register_task(importer.id, importer)
 
     def on_api_initialized_v2(self, api):
         api.add_route(
@@ -117,3 +106,12 @@ class LaserChronDataPlugin(SparrowPlugin):
             data_file_csv,
             help="CSV data for a detrital zircon data table",
         )
+
+
+@sparrow.task()
+def list_samples(verbose: bool = False):
+    print("Starting to list samples")
+    db = sparrow.get_database()
+    DataFile = db.model.data_file
+    iterator = db.session.query(DataFile).filter(DataFile.csv_data != None)
+    list_sample_names(iterator, verbose=verbose)

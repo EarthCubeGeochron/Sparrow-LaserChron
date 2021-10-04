@@ -56,11 +56,10 @@ def print_sample_info(df, verbose=False):
         for id, group in df.groupby(["sample_name"]):
             n = style(f" ({len(group)})", dim=True)
             echo("- " + style(id, fg="cyan") + n, err=True)
-        echo("", err=True)
+        echo("")
     else:
         echo(
             style("Samples: ", bold=True) + "   ".join(data.sample_id.unique()),
-            err=True,
         )
 
 
