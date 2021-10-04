@@ -1,4 +1,3 @@
-from pandas.io import json
 from sparrow.plugins import SparrowPlugin
 from sparrow.context import app_context
 from .cli import import_laserchron_metadata
@@ -6,9 +5,17 @@ from .utils import material_check
 
 from pathlib import Path
 import pandas as pd
-import math
-
+import click
 from IPython import embed
+
+def space(spaces=1):
+    for i in range(0, spaces):
+        click.echo("")
+
+def failed_import(name:str, e):
+    click.secho(" Failed Import! ", fg="white", bg="red")
+    click.secho(f"Sample {name} did not import correctly", fg="red")
+    click.secho(f"Error: {e}", fg="yellow")
 
 class LaserChronMetadataImporter(SparrowPlugin):
 
@@ -25,34 +32,35 @@ class LaserChronMetadataImporter(SparrowPlugin):
         here = Path(__file__).parent
         fn = here / filename
 
-        insert_sample = here / 'insert-sample.sql' # db.exec_sql
+        click.secho(f"Reading data from {filename}", fg="blue")
 
         df = pd.read_csv(fn)
 
-        df = df[df['Sample ID'].notna()] ## gets rid of any row that doesn't have a sample name
+        df = df[df['Sample ID'].notna()]
 
-        # format long/lat columns
         df['Longitude'] = df['Longitude'].apply(self.clean_long_lat_to_float)
         df['Latitude'] = df['Latitude'].apply(self.clean_long_lat_to_float)
 
-        # remove the rest of the unparseable coordinates
         df = self.drop_unparseable_coord(df)
 
-        # create json list for the eventual load data
         json_list = self.create_sample_dict(df)
-        # check if exsits
-        json_list = self.check_if_exists(json_list)
+        json_list, number_existing = self.check_if_exists(json_list)
 
+        total_samples= len(json_list)
 
-            # load in all the rest of the data
+        successfully_imported = 0
+
         for ele in json_list:
-            params={'name':ele['name'], 'material':ele['material'], 'location':ele['location']}
             try:
-                db.exec_sql(insert_sample, params)
-                print(f"Inserting {ele['name']}")
-            except:
-                embed()
-                print('Something went very wrong')
+                db.load_data('sample', ele)
+                click.secho(f"Inserting sample {ele['name']}", fg="green")
+                successfully_imported += 1
+            except Exception as e:
+                failed_import(ele['name'], e)
+        
+        click.secho("Finished Importing Metadata", fg="bright_green")
+        click.secho(f"{number_existing} samples already existed and checked for new metadata.", fg="bright_green")
+        click.secho(f"{successfully_imported}/{total_samples} successfully imported!", fg="bright_green")
 
 
     def check_if_exists(self, json_list):
@@ -72,44 +80,46 @@ class LaserChronMetadataImporter(SparrowPlugin):
                 samples_that_exist.append(inx)
                 existing = res[0]
                 for k,v in row.items():
+                    if k == "location":
+                        #'SRID=4269;POINT(-71.064544 42.28787)'
+                        v = f"SRID=4269;POINT({v['coordinates'][0]} {v['coordinates'][1]})"
                     setattr(existing, k, v)
 
                 assert len(db.session.dirty) > 0
                 
                 try:
-                    print("Added data to existing sample")
+                    click.secho(f"{name} already exists, adding missing metadata..", fg="yellow")
                     db.session.commit()
-                except:
-                    print("Error")
+                except Exception as e:
+                    failed_import(name, e)
                     db.session.rollback()
         for i in reversed(samples_that_exist): # reverse so indexes stay in correct place
             del json_list[i]
         
-        return json_list
-    
-
+        return json_list, len(samples_that_exist)
 
     def create_sample_dict(self, df):
         """ Create sample dictionary ready for loading """
         """ ref_datum: null,
-    ref_distance: null,
-    ref_unit: null, """
+            ref_distance: null,
+            ref_unit: null, """
         json_list = []
 
         for indx, row in df.iterrows():
             obj = {}
             obj['name'] = row['Sample ID']
-            if str(row['Material'] == 'nan'):
+            if str(row['Material']) == 'nan':
                 obj['material'] = None
             else:
                 obj['material'] = row['Material']
-                
-            if row['Geologic Entity'] is not None:
-                obj['sample_geo_entity'] = [{'ref_datum':None,'ref_distance':None,\
-                    'ref_unit':None,'geo_entity':{'type': None, 'name': row['Geologic Entity']}}]
-            if row['Longitude'] is None:
-                obj['location'] = None
-            obj['location'] = f"SRID=4326;POINT({row['Longitude']} {row['Latitude']})"
+            if str(row['Geologic Entity']) is not None:
+                geo_entity = {'name': str(row['Geologic Entity'])}
+                if str(row["Geologic Period"]) is not None:
+                   geo_entity['description'] = str(row['Geologic Period'])
+                obj['sample_geo_entity'] = [{'geo_entity':geo_entity}]
+            obj['location'] = None
+            if row['Longitude'] is not None:
+                obj['location'] = {"coordinates": [row['Longitude'], row['Latitude']], "type":"Point"}
             json_list.append(obj)
 
         return json_list
@@ -119,8 +129,6 @@ class LaserChronMetadataImporter(SparrowPlugin):
 
             Case: more than one in cell separated by a '/'
         """
-
-        
     
     def clean_long_lat_to_float(self, coordinate):
         """ 

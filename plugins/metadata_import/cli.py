@@ -1,8 +1,10 @@
 from click import command, option, argument
 from sparrow.cli.util import with_app
+from sparrow.task_manager import task
+import sparrow
 
 @command(name="import-laserchron-metadata")
-@option('--filename', '--fn', default='alc-06-07-21.csv')
+@option('--filename', '--fn', default='alc_metadata.csv')
 @with_app
 def import_laserchron_metadata(app, filename):
     """ 
@@ -10,4 +12,12 @@ def import_laserchron_metadata(app, filename):
     """
 
     MetadataImporter = app.plugins.get("laserchron-metadata")
+    MetadataImporter.iterfiles(filename)
+
+@task(name="import-laserchron-metadata")
+def import_laserchron_metdata_(filename:str = "alc_metadata.csv"):
+    """
+    importer as a task
+    """
+    MetadataImporter = sparrow.get_plugin("laserchron-metadata")
     MetadataImporter.iterfiles(filename)
