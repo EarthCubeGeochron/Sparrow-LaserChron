@@ -140,7 +140,7 @@ class LaserchronImporter(BaseImporter):
             data, meta = decode_datatable(rec.csv_data)
             self.meta = meta
             data.index.name = "analysis"
-        except IndexError as err:
+        except (IndexError, AttributeError) as err:
             raise SparrowImportError(err)
 
         data = generalize_samples(data)
