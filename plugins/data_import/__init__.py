@@ -49,7 +49,7 @@ class LaserChronDataPlugin(SparrowPlugin):
         self.stop_on_error = stop_on_error
         self.redo = redo
 
-        importer = LaserchronImporter(db, verbose=verbose)
+        importer = LaserchronImporter(self.app, verbose=verbose)
         if normalize and not basename:
             if download:
                 iterator = self.process_objects(only_untracked=False)

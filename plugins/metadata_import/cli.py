@@ -1,4 +1,4 @@
-from click import command, option, argument
+from click import command, option, secho
 from sparrow.cli.util import with_app
 from sparrow.task_manager import task
 import sparrow
@@ -21,3 +21,10 @@ def import_laserchron_metdata_(filename:str = "alc_metadata.csv"):
     """
     MetadataImporter = sparrow.get_plugin("laserchron-metadata")
     MetadataImporter.iterfiles(filename)
+
+@task(name="say-hello")
+def say_hello_task():
+    """ 
+    Very basic example task
+    """
+    secho("Hello World", fg="green")
