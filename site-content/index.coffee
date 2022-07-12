@@ -1,6 +1,6 @@
 import {Markdown} from '@macrostrat/ui-components'
 import aboutText from './about.md'
-import h from 'react-hyperscript'
+import h from '@macrostrat/hyper'
 import {DetritalZirconComponent, DZSessionData} from 'plugins/dz-spectrum'
 import {AggregateHistogram} from 'plugins/dz-aggregate-histogram'
 import ReactJson from "react-json-view"
