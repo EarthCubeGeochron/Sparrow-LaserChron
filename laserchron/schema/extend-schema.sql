@@ -1,10 +1,11 @@
 INSERT INTO data_file_type (id) VALUES
   ('ETAgeCalc'),
-  ('NuAgeCalc');
+  ('NuAgeCalc'),
+  ('Sample metadata')
+ON CONFLICT DO NOTHING;
 
-/* Add a column for a cached CSV representation of data table
-  so we don't have to carry along the entire ETAgeCalc/
-  NuAgeCalc apparatus in memory */
+/* A cached CSV copy of each data table. The pipeline reads workbooks directly
+  and no longer fills this in; the column stays for the tables already stored. */
 ALTER TABLE data_file ADD COLUMN csv_data bytea;
 
 -- Embargo permanantly by default
