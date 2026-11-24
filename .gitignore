@@ -1,3 +1,6 @@
 Data
 database-backups
 sparrow-config.overrides.sh
+__pycache__
+*.egg-info
+.venv

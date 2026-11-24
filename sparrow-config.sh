@@ -17,11 +17,12 @@ export SPARROW_LAB_NAME="Arizona LaserChron Center"
 export COMPOSE_PROJECT_NAME="laserchron"
 # Need to figure out a better way to do this, but it'll be finicky
 # because of docker container nonsense
-export SPARROW_INIT_SQL="$PROJECT_DIR/sql"
 export SPARROW_SITE_CONTENT="$PROJECT_DIR/site-content"
 export SPARROW_HTTP_PORT=5002
 
-export SPARROW_PLUGIN_DIR="$PROJECT_DIR/plugins"
+# The lab's plugin, schema and pipelines are the `laserchron` package in this
+# repository, installed into the backend image (see the Dockerfile) rather
+# than mounted from a directory.
 
 # This only works in production
 export SPARROW_DOMAIN="sparrow.laserchron.org"
